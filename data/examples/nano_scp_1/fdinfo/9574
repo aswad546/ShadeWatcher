@@ -1,0 +1,27 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 27 22:38 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/pts/11
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> /proc/9574/mounts
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> socket:[801007]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> socket:[804148]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> socket:[802288]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> /run/systemd/inhibit/15.ref
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> pipe:[802289]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> pipe:[802289]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> /run/systemd/inhibit/14.ref
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/pts/11
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> /run/systemd/inhibit/16.ref
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> socket:[802441]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 23 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 24 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[801003]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[799045]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> socket:[801005]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> anon_inode:[eventfd]

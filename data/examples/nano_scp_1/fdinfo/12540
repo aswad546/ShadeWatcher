@@ -1,0 +1,62 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 11:40 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> /dev/pts/6
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> socket:[2993690]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> pipe:[2931656]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> pipe:[2931656]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> pipe:[2931657]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> pipe:[2931657]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> /dev/shm/org.mozilla.ipc.4693.20 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> socket:[2933058]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /dev/pts/6
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> /dev/shm/org.mozilla.ipc.4693.6 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> /dev/shm/org.mozilla.ipc.4693.8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 22 -> /dev/shm/org.mozilla.ipc.4693.50 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 23 -> /home/anonymized/.cache/mozilla/firefox/2zpyqjxv.default/startupCache/scriptCache-child-current.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 20:25 24 -> /dev/shm/org.mozilla.ipc.4693.14 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 25 -> socket:[2956833]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 26 -> /dev/shm/org.mozilla.ipc.4693.23 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 27 -> /dev/shm/org.mozilla.ipc.4693.19 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 28 -> /dev/shm/org.mozilla.ipc.4693.10 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 29 -> /dev/shm/org.mozilla.ipc.4693.196 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> socket:[2936823]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 30 -> socket:[2999636]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 31 -> socket:[3000843]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 32 -> /dev/shm/org.mozilla.ipc.4693.18 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 33 -> /dev/shm/org.mozilla.ipc.4693.13 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 34 -> /dev/shm/org.mozilla.ipc.4693.11 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 35 -> /dev/dri/card1
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 36 -> socket:[2930074]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 37 -> socket:[2956823]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 38 -> socket:[2956825]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 39 -> socket:[2956827]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> socket:[1163073]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 40 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 41 -> socket:[2956835]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 42 -> socket:[2956837]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 43 -> /usr/lib/firefox/omni.ja
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 44 -> /usr/lib/firefox/browser/omni.ja
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 45 -> pipe:[2956858]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 46 -> pipe:[2956858]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 47 -> pipe:[2931662]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 48 -> pipe:[2931662]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 49 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> socket:[1163076]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 50 -> pipe:[1934073184]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 51 -> pipe:[1934073184]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 52 -> /dev/shm/org.mozilla.ipc.4693.9 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 54 -> socket:[2956864]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 55 -> socket:[2977353]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 58 -> /dev/shm/org.mozilla.ipc.4693.12 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> /dev/shm/org.mozilla.ipc.4693.0 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 61 -> /dev/shm/org.mozilla.ipc.4693.15 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 62 -> /dev/shm/org.mozilla.ipc.4693.16 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 63 -> /dev/shm/org.mozilla.ipc.4693.17 (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> pipe:[2933005]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> pipe:[2956862]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> pipe:[2956862]

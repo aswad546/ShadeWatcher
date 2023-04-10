@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 29 17:07 ..
+lr-x------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+l-wx------ 1 root root 64 Oct 31 22:04 1 -> /dev/null
+l-wx------ 1 root root 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> socket:[28004]
+l-wx------ 1 root root 64 Oct 31 22:04 4 -> /var/lib/NetworkManager/dhclient-a276dd1e-94cf-3868-ac36-2ff17a8d32af-eno1.lease
+lrwx------ 1 root root 64 Oct 31 22:04 5 -> socket:[30814]
+lrwx------ 1 root root 64 Oct 31 22:04 6 -> socket:[30815]

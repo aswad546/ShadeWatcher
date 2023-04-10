@@ -1,0 +1,42 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /home/anonymized/.cache/upstart/unity7.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> socket:[804083]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> socket:[804098]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /home/anonymized/.cache/upstart/unity-panel-service.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> socket:[799030]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> socket:[804099]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /home/anonymized/.cache/upstart/unity-settings-daemon.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /home/anonymized/.cache/upstart/dbus.log.1 (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /home/anonymized/.cache/upstart/hud.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /home/anonymized/.xsession-errors
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> /home/anonymized/.cache/upstart/window-stack-bridge.log.1 (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> /home/anonymized/.cache/upstart/bamfdaemon.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> /home/anonymized/.cache/upstart/indicator-sound.log.1 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> /dev/ptmx
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> /home/anonymized/.cache/upstart/indicator-keyboard.log.1 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> /dev/ptmx
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> pipe:[804055]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/ptmx
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> pipe:[804055]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 48 -> /dev/ptmx
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /dev/ptmx
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> socket:[804056]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> socket:[804057]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> socket:[804067]

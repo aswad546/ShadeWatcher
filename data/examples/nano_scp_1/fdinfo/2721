@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 27 20:25 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> socket:[29455]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /proc/2721/mountinfo
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> anon_inode:inotify
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> /proc/swaps
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> socket:[33350]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> socket:[33351]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> anon_inode:[timerfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> socket:[33355]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> socket:[29455]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[26377]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> anon_inode:[signalfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /sys/fs/cgroup/systemd/user.slice/user-1000.slice/user@1000.service
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> anon_inode:[timerfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> socket:[33346]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> anon_inode:[eventpoll]

@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[802219]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> pipe:[802220]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> pipe:[802220]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[802221]

@@ -1,0 +1,58 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 28 11:49 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> pipe:[1162039]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> pipe:[1162039]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> socket:[1169800]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> socket:[1169801]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> pipe:[1169802]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> pipe:[1169802]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> socket:[1160895]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> socket:[1160896]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> pipe:[1160897]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> pipe:[1160897]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1160890]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1166974]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /proc/4601/statm
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /proc/4601/status
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/shm/.org.chromium.Chromium.1h9qh3 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> pipe:[1162042]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> pipe:[1162042]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/shm/.org.chromium.Chromium.4T5STh (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> socket:[1168643]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1162881]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> socket:[6840272]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> /dev/shm/.org.chromium.Chromium.NKztqm (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> socket:[1165208]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 43 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> /dev/shm/.org.chromium.Chromium.8VAp8J (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> socket:[1163963]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /usr/share/code/resources/app/node_modules.asar
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 47 -> /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1163925]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> socket:[1162950]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 51 -> anon_inode:inotify
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /home/anonymized/.config/Code/logs/20201028T114941/sharedprocess.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> /home/anonymized/.config/Code/logs/20201028T114941/telemetry.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> /home/anonymized/.config/Code/logs/20201028T114941/userDataSync.log
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> pipe:[1162038]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> socket:[1162953]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> pipe:[1162038]

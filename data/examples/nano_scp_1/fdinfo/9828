@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 11:40 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> socket:[798365]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> socket:[802388]

@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 lp lp  0 Oct 31 22:04 .
+dr-xr-xr-x 9 lp lp  0 Oct 31 16:48 ..
+lr-x------ 1 lp lp 64 Oct 31 22:04 0 -> pipe:[4254399652]
+l-wx------ 1 lp lp 64 Oct 31 22:04 1 -> /dev/null
+l-wx------ 1 lp lp 64 Oct 31 22:04 2 -> pipe:[4254399651]
+lr-x------ 1 lp lp 64 Oct 31 22:04 3 -> /dev/urandom
+lrwx------ 1 lp lp 64 Oct 31 22:04 4 -> socket:[4214251265]
+lrwx------ 1 lp lp 64 Oct 31 22:04 5 -> anon_inode:[eventpoll]
+lrwx------ 1 lp lp 64 Oct 31 22:04 6 -> /var/spool/cups/tmp/cups-dbus-notifier-lockfile

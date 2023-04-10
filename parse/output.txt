@@ -1,0 +1,13 @@
+darpa file: /home/vagrant/ta1-trace-e3-official.json.3
+Multi-thread Configure file: ../config/multithread.cfg
+Reduce noisy events
+	collecting temporary file
+	collecting ShadowFileEdge
+	collecting ShadowProcEdge
+	collecting MissingEdge
+	collecting Library
+	deleting nosiy events
+Finding Interactions
+Checking node: 3517293622199595859
+	Finding Interactive Entities: 3517293622199595859
+	Interactive Entities

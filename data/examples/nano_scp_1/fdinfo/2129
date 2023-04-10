@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 whoopsie whoopsie  0 Oct 31 22:04 .
+dr-xr-xr-x 9 whoopsie whoopsie  0 Oct 30 17:57 ..
+lr-x------ 1 whoopsie whoopsie 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 1 -> socket:[29123]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 10 -> anon_inode:[eventfd]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 11 -> socket:[29138]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 2 -> socket:[29123]
+lr-x------ 1 whoopsie whoopsie 64 Oct 31 22:04 3 -> /dev/urandom
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 4 -> /run/lock/whoopsie/lock
+lr-x------ 1 whoopsie whoopsie 64 Oct 31 22:04 5 -> anon_inode:inotify
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 6 -> anon_inode:[eventfd]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 7 -> anon_inode:[eventfd]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 8 -> socket:[19269]
+lrwx------ 1 whoopsie whoopsie 64 Oct 31 22:04 9 -> socket:[19270]

@@ -1,0 +1,31 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 29 17:04 ..
+lr-x------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 1 -> socket:[17216]
+lrwx------ 1 root root 64 Oct 31 22:04 10 -> socket:[27671]
+lrwx------ 1 root root 64 Oct 31 22:04 11 -> socket:[27672]
+lrwx------ 1 root root 64 Oct 31 22:04 12 -> socket:[27673]
+lrwx------ 1 root root 64 Oct 31 22:04 13 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Oct 31 22:04 14 -> /dev/input/event2
+lrwx------ 1 root root 64 Oct 31 22:04 15 -> /dev/input/event6
+lrwx------ 1 root root 64 Oct 31 22:04 16 -> /dev/input/event1
+lrwx------ 1 root root 64 Oct 31 22:04 17 -> /dev/input/event0
+lrwx------ 1 root root 64 Oct 31 22:04 18 -> /dev/input/event8
+lrwx------ 1 root root 64 Oct 31 22:04 19 -> /dev/input/event7
+lrwx------ 1 root root 64 Oct 31 22:04 2 -> socket:[17216]
+lrwx------ 1 root root 64 Oct 31 22:04 20 -> /dev/tty6
+lr-x------ 1 root root 64 Oct 31 22:04 21 -> /run/systemd/inhibit/1.ref
+lr-x------ 1 root root 64 Oct 31 22:04 22 -> /run/systemd/inhibit/2.ref
+lr-x------ 1 root root 64 Oct 31 22:04 23 -> /run/systemd/sessions/c4.ref
+lr-x------ 1 root root 64 Oct 31 22:04 24 -> /run/systemd/inhibit/14.ref
+lr-x------ 1 root root 64 Oct 31 22:04 25 -> /run/systemd/inhibit/15.ref
+lr-x------ 1 root root 64 Oct 31 22:04 26 -> /run/systemd/inhibit/16.ref
+lr-x------ 1 root root 64 Oct 31 22:04 27 -> /run/systemd/inhibit/18.ref
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> socket:[27667]
+lrwx------ 1 root root 64 Oct 31 22:04 4 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Oct 31 22:04 5 -> anon_inode:[timerfd]
+lr-x------ 1 root root 64 Oct 31 22:04 6 -> /sys/devices/virtual/tty/tty0/active
+lrwx------ 1 root root 64 Oct 31 22:04 7 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Oct 31 22:04 8 -> socket:[27669]
+lrwx------ 1 root root 64 Oct 31 22:04 9 -> socket:[27670]

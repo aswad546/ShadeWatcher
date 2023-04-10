@@ -1,0 +1,42 @@
+COMMAND    PID     USER   FD   TYPE     DEVICE SIZE/OFF NODE NAME
+avahi-dae 1221    avahi   12u  IPv4      27765      0t0  UDP *:5353 
+avahi-dae 1221    avahi   13u  IPv6      27766      0t0  UDP *:5353 
+avahi-dae 1221    avahi   14u  IPv4      27767      0t0  UDP *:42845 
+avahi-dae 1221    avahi   15u  IPv6      27768      0t0  UDP *:38835 
+java      1424    neo4j  380u  IPv6 1181339426      0t0  TCP 127.0.0.1:7687->127.0.0.1:56076 (ESTABLISHED)
+java      1424    neo4j  381u  IPv6 1062543307      0t0  TCP 127.0.0.1:7687->127.0.0.1:56072 (ESTABLISHED)
+java      1424    neo4j  382u  IPv6 1230005409      0t0  TCP 127.0.0.1:7687->127.0.0.1:50206 (ESTABLISHED)
+java      1424    neo4j  383u  IPv6 1062543309      0t0  TCP 127.0.0.1:7687->127.0.0.1:56074 (ESTABLISHED)
+java      1424    neo4j  503u  IPv6    5498801      0t0  TCP 127.0.0.1:7687 (LISTEN)
+java      1424    neo4j  504u  IPv6    5633292      0t0  TCP 127.0.0.1:7474 (LISTEN)
+java      1424    neo4j  515u  IPv6    5633298      0t0  TCP 127.0.0.1:7473 (LISTEN)
+sshd      1689     root    3u  IPv4      31209      0t0  TCP *:22 (LISTEN)
+sshd      1689     root    4u  IPv6      31211      0t0  TCP *:22 (LISTEN)
+postgres  1798 postgres    6u  IPv4      28002      0t0  TCP 127.0.0.1:5432 (LISTEN)
+postgres  1798 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+dhclient  1822     root    6u  IPv4      30815      0t0  UDP *:68 
+dnsmasq   1836   nobody    4u  IPv4      28021      0t0  UDP 127.0.1.1:53 
+dnsmasq   1836   nobody    5u  IPv4      28022      0t0  TCP 127.0.1.1:53 (LISTEN)
+dnsmasq   1836   nobody   11u  IPv4      28032      0t0  UDP *:55817 
+postgres  2003 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+postgres  2004 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+postgres  2005 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+postgres  2006 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+postgres  2008 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+postgres  2010 postgres    8u  IPv4      28015      0t0  UDP 127.0.0.1:58003->127.0.0.1:58003 
+slapd     2294 openldap    9u  IPv4      33111      0t0  TCP *:389 (LISTEN)
+slapd     2294 openldap   10u  IPv6      33112      0t0  TCP *:389 (LISTEN)
+firefox   4693  anonymized   84u  IPv4 1091265389      0t0  TCP 127.0.0.1:50206->127.0.0.1:7687 (ESTABLISHED)
+firefox   4693  anonymized   85u  IPv4    3723855      0t0  TCP 172.26.187.96:39812->54.213.188.123:443 (ESTABLISHED)
+firefox   4693  anonymized  130u  IPv4 1179733259      0t0  TCP 127.0.0.1:56076->127.0.0.1:7687 (ESTABLISHED)
+firefox   4693  anonymized  140u  IPv4  467844010      0t0  TCP 172.26.187.96:40040->140.82.114.26:443 (ESTABLISHED)
+firefox   4693  anonymized  143u  IPv4 1094212841      0t0  TCP 127.0.0.1:56074->127.0.0.1:7687 (ESTABLISHED)
+firefox   4693  anonymized  243u  IPv4  884643994      0t0  TCP 127.0.0.1:56072->127.0.0.1:7687 (ESTABLISHED)
+firefox   4693  anonymized  254u  IPv4    3762143      0t0  TCP 172.26.187.96:44944->198.252.206.25:443 (ESTABLISHED)
+firefox   4693  anonymized  265u  IPv4    3636661      0t0  TCP 172.26.187.96:43410->198.252.206.25:443 (ESTABLISHED)
+firefox   4693  anonymized  296u  IPv4  131967999      0t0  TCP 172.26.187.96:32878->198.252.206.25:443 (ESTABLISHED)
+cupsd     7430     root   10u  IPv6 4254399648      0t0  TCP [::1]:631 (LISTEN)
+cupsd     7430     root   11u  IPv4 4254399649      0t0  TCP 127.0.0.1:631 (LISTEN)
+cups-brow 7431     root    8u  IPv4 4214251266      0t0  UDP *:631 
+vmware-au 7668     root   10u  IPv6 4258396619      0t0  TCP *:902 (LISTEN)
+vmware-au 7668     root   11u  IPv4 4258396620      0t0  TCP *:902 (LISTEN)

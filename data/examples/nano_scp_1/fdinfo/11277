@@ -1,0 +1,9 @@
+total 0
+dr-x------ 2 root    root  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized utmp  0 Oct 30 11:40 ..
+lr-x------ 1 root    root 64 Oct 31 19:37 0 -> /dev/null
+l-wx------ 1 root    root 64 Oct 31 19:37 1 -> /dev/null
+l-wx------ 1 root    root 64 Oct 31 19:37 2 -> /dev/null
+lr-x------ 1 root    root 64 Oct 31 19:37 3 -> /run/screen/S-anonymized/11277.darpa
+lrwx------ 1 root    root 64 Oct 31 19:37 5 -> /run/utmp
+lrwx------ 1 root    root 64 Oct 31 19:37 6 -> /dev/ptmx

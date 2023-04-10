@@ -1,0 +1,11 @@
+total 0
+dr-x------ 2 root root     0 Oct 31 16:47 .
+dr-xr-xr-x 9 root anonymized  0 Oct 31 13:22 ..
+lrwx------ 1 root root    64 Oct 31 19:37 0 -> /dev/pts/24
+lrwx------ 1 root root    64 Oct 31 19:37 1 -> /dev/pts/24
+lrwx------ 1 root root    64 Oct 31 22:04 2 -> /dev/pts/24
+lrwx------ 1 root root    64 Oct 31 19:37 3 -> socket:[449858351]
+lrwx------ 1 root root    64 Oct 31 19:37 5 -> socket:[449858348]
+lr-x------ 1 root root    64 Oct 31 19:37 6 -> pipe:[449858341]
+l-wx------ 1 root root    64 Oct 31 19:37 7 -> pipe:[449858341]
+lrwx------ 1 root root    64 Oct 31 19:37 8 -> socket:[449858354]

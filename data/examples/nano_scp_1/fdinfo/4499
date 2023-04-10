@@ -1,0 +1,118 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /usr/share/code/v8_context_snapshot.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 100 -> /dev/shm/.org.chromium.Chromium.XqvBly (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 101 -> socket:[6484398]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 102 -> /home/anonymized/.config/Code/GPUCache/data_2
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /home/anonymized/.config/Code/GPUCache/data_3
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 104 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 105 -> /dev/shm/.org.chromium.Chromium.CzDT57 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 107 -> /dev/shm/.org.chromium.Chromium.1jxjTb (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 108 -> /home/anonymized/.config/Code/User/globalStorage/state.vscdb
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 109 -> /run/systemd/inhibit/18.ref
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> socket:[1162886]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 110 -> socket:[1166294]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 111 -> socket:[1171622]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 112 -> socket:[6437698]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 113 -> socket:[6489134]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 114 -> socket:[387113634]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 115 -> socket:[365818042]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> pipe:[1162906]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> pipe:[1162906]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> socket:[1166272]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> socket:[1166273]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> pipe:[1166274]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> pipe:[1166274]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> socket:[1166956]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> socket:[1166957]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> pipe:[1166958]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> pipe:[1166958]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> pipe:[1162907]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> pipe:[1162907]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> pipe:[1162908]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> pipe:[1162908]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> pipe:[1162909]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> /usr/share/code/v8_context_snapshot.bin
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> pipe:[1162909]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 43 -> pipe:[1160885]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> pipe:[1160885]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 47 -> socket:[1162910]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 48 -> socket:[1162911]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 49 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1162881]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> socket:[1166275]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 51 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 53 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> socket:[1160886]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> socket:[1160887]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 56 -> pipe:[1160888]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 57 -> pipe:[1160888]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 58 -> pipe:[1162915]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 59 -> pipe:[1162915]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[1162882]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 60 -> socket:[1160889]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 61 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 62 -> socket:[1166276]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 63 -> socket:[1162916]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 64 -> /dev/shm/.org.chromium.Chromium.DzfMSA (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 65 -> socket:[1162919]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 66 -> socket:[1166959]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 67 -> socket:[1166960]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 68 -> socket:[1169707]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 69 -> /dev/shm/.org.chromium.Chromium.QHnP71 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> pipe:[1162883]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 70 -> socket:[1166965]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 71 -> socket:[1166967]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 72 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 73 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 74 -> socket:[1170568]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 75 -> socket:[1170569]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 76 -> /usr/share/code/snapshot_blob.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 77 -> socket:[1162926]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 78 -> socket:[1162929]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 79 -> /home/anonymized/.config/Code/logs/20201028T114941/main.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> pipe:[1162883]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 80 -> anon_inode:[eventfd]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> /home/anonymized/.config/Code/Local Storage/leveldb/LOG
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 82 -> /home/anonymized/.config/Code/Local Storage/leveldb/LOCK
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 83 -> /home/anonymized/.config/Code/Local Storage/leveldb/MANIFEST-000001
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 84 -> /home/anonymized/.config/Code/Local Storage/leveldb/000003.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 85 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 86 -> socket:[1165197]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 87 -> socket:[1165198]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 88 -> socket:[1162930]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 89 -> socket:[1163890]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> socket:[1162884]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 90 -> pipe:[1165199]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 91 -> pipe:[1165199]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 92 -> /home/anonymized/.config/Code/GPUCache/index
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 93 -> socket:[1160890]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 94 -> socket:[1160891]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 95 -> /home/anonymized/.config/Code/GPUCache/data_0
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 96 -> socket:[1163924]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 97 -> socket:[1166973]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 98 -> /dev/shm/.org.chromium.Chromium.PIIbYE (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 99 -> /home/anonymized/.config/Code/GPUCache/data_1

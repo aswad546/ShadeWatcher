@@ -1,0 +1,122 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> pipe:[1167621]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 100 -> /dev/shm/.org.chromium.Chromium.Ksp9oc (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 101 -> /dev/shm/.org.chromium.Chromium.yjTpTS (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 102 -> /dev/shm/.org.chromium.Chromium.SzF8pp (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 105 -> /dev/shm/.org.chromium.Chromium.7bLAc7 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 107 -> /dev/shm/.org.chromium.Chromium.LcKrJO (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 108 -> /dev/shm/.org.chromium.Chromium.tuRUQ6 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 109 -> /dev/shm/.org.chromium.Chromium.63TQiE (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> pipe:[1167621]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 110 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 111 -> /dev/shm/.org.chromium.Chromium.pA1k29 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 112 -> /dev/shm/.org.chromium.Chromium.ktJCEU (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 113 -> /dev/shm/.org.chromium.Chromium.XXsVgF (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 114 -> /dev/shm/.org.chromium.Chromium.q9bfTp (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 115 -> /dev/shm/.org.chromium.Chromium.Wdyzva (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 116 -> /dev/shm/.org.chromium.Chromium.2hLU7U (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 117 -> /dev/shm/.org.chromium.Chromium.wGSgKF (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 118 -> /dev/shm/.org.chromium.Chromium.cCYDmq (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 119 -> /dev/shm/.org.chromium.Chromium.Ese2Ya (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 120 -> /dev/shm/.org.chromium.Chromium.0NrrBV (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 121 -> /dev/shm/.org.chromium.Chromium.sRpRdG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 122 -> /dev/shm/.org.chromium.Chromium.EDZhQq (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 123 -> /dev/shm/.org.chromium.Chromium.tttJsb (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 124 -> /dev/shm/.org.chromium.Chromium.Lg3c5V (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 125 -> /dev/shm/.org.chromium.Chromium.MkoHHG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 126 -> /dev/shm/.org.chromium.Chromium.wHDckr (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 127 -> /dev/shm/.org.chromium.Chromium.EzBIWb (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 129 -> /dev/shm/.org.chromium.Chromium.9lpHUW (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> /usr/share/code/v8_context_snapshot.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> pipe:[1167622]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> pipe:[1167622]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> pipe:[1160901]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> pipe:[1160901]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1171625]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1163891]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> /proc/4554/statm
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /proc/4554/status
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/shm/.org.chromium.Chromium.HsULcY (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> socket:[1168636]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> /dev/shm/.org.chromium.Chromium.SpJ4wx (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> /dev/shm/.org.chromium.Chromium.R7e3bG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/shm/.org.chromium.Chromium.USLuR6 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> /dev/shm/.org.chromium.Chromium.sJLpyf (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1162881]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> socket:[1165204]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> /dev/shm/.org.chromium.Chromium.B4QMUO (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> socket:[1165205]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 43 -> pipe:[1165206]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> pipe:[1165206]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /dev/shm/.org.chromium.Chromium.N2IoW8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 47 -> /dev/urandom
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 48 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 49 -> /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1162931]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> anon_inode:inotify
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 53 -> /dev/shm/.org.chromium.Chromium.d78rGp (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 56 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 57 -> /dev/shm/.org.chromium.Chromium.wBe9aR (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 58 -> /dev/shm/.org.chromium.Chromium.cmjaMo (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 59 -> /dev/shm/.org.chromium.Chromium.MW3rnB (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /usr/share/code/icudtl.dat
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 60 -> /dev/shm/.org.chromium.Chromium.4jpCYl (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 61 -> /dev/shm/.org.chromium.Chromium.P4MNz6 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 62 -> /dev/shm/.org.chromium.Chromium.botWnm (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 63 -> /dev/shm/.org.chromium.Chromium.MNrxMB (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 64 -> /dev/shm/.org.chromium.Chromium.cEYlZ6 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 65 -> /dev/shm/.org.chromium.Chromium.485LAR (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 66 -> /dev/shm/.org.chromium.Chromium.HVZGNm (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 68 -> /dev/shm/.org.chromium.Chromium.H6Zap7 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 69 -> /dev/shm/.org.chromium.Chromium.ZCZdcC (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 70 -> /dev/shm/.org.chromium.Chromium.TQJF0R (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 71 -> /dev/shm/.org.chromium.Chromium.hzybCC (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 72 -> /dev/shm/.org.chromium.Chromium.HzKrrA (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 73 -> /dev/shm/.org.chromium.Chromium.AZoJdn (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 74 -> /dev/shm/.org.chromium.Chromium.8xPVqS (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 75 -> /dev/shm/.org.chromium.Chromium.wHyy2C (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 76 -> /dev/shm/.org.chromium.Chromium.pJQjP7 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 77 -> /dev/shm/.org.chromium.Chromium.Qa7vRS (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 78 -> /dev/shm/.org.chromium.Chromium.lSacEn (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 79 -> /dev/shm/.org.chromium.Chromium.nAtQf8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> pipe:[1167620]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 80 -> /dev/shm/.org.chromium.Chromium.isPdtD (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> /dev/shm/.org.chromium.Chromium.s7fW4n (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 82 -> /dev/shm/.org.chromium.Chromium.jUxFG8 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 83 -> /dev/shm/.org.chromium.Chromium.AetpiT (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 84 -> /dev/shm/.org.chromium.Chromium.6HPOUQ (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 85 -> /dev/shm/.org.chromium.Chromium.qttcUD (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 86 -> /dev/shm/.org.chromium.Chromium.Bqb0vo (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 87 -> /dev/shm/.org.chromium.Chromium.J8UQ78 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 88 -> /dev/shm/.org.chromium.Chromium.zVpKJT (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 89 -> /dev/shm/.org.chromium.Chromium.3g2KlE (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> pipe:[1167620]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 90 -> /dev/shm/.org.chromium.Chromium.5xrMXo (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 91 -> /dev/shm/.org.chromium.Chromium.TVtOz9 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 92 -> /dev/shm/.org.chromium.Chromium.8qrRbU (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 94 -> /dev/shm/.org.chromium.Chromium.ZUwZNE (deleted)

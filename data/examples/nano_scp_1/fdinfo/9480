@@ -1,0 +1,40 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/pts/7 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> socket:[804180]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> socket:[804181]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> socket:[804182]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> /dev/urandom
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> pipe:[804199]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> pipe:[804199]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> pipe:[804200]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> pipe:[804200]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_py.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_hz.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/pts/7 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_core.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_adjcache.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_annex.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_phrases.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_quick.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_eng.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_eng_pre.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_url.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> pipe:[804399]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> pipe:[804400]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> pipe:[793336]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> pipe:[804402]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> pipe:[792516]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> pipe:[799218]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> pipe:[799219]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> pipe:[799220]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> pipe:[799221]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> pipe:[802430]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> pipe:[793336]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[800999]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[802242]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> socket:[804115]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> /usr/share/presage/database_en.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> /home/anonymized/.presage/lm.db

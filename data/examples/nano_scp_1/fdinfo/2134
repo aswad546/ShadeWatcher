@@ -1,0 +1,22 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 30 17:57 ..
+lr-x------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 1 -> socket:[33060]
+lr-x------ 1 root root 64 Oct 31 22:04 10 -> net:[4026532009]
+lrwx------ 1 root root 64 Oct 31 22:04 11 -> socket:[29331]
+lrwx------ 1 root root 64 Oct 31 22:04 12 -> socket:[29332]
+lrwx------ 1 root root 64 Oct 31 22:04 13 -> socket:[29333]
+lrwx------ 1 root root 64 Oct 31 22:04 14 -> socket:[33818]
+lrwx------ 1 root root 64 Oct 31 22:04 15 -> /var/lib/docker/builder/fscache.db
+lrwx------ 1 root root 64 Oct 31 22:04 16 -> /var/lib/docker/buildkit/snapshots.db
+lrwx------ 1 root root 64 Oct 31 22:04 17 -> /var/lib/docker/buildkit/metadata.db
+lrwx------ 1 root root 64 Oct 31 22:04 18 -> /var/lib/docker/buildkit/cache.db
+lrwx------ 1 root root 64 Oct 31 22:04 2 -> socket:[33060]
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> socket:[33210]
+lrwx------ 1 root root 64 Oct 31 22:04 4 -> socket:[33145]
+lrwx------ 1 root root 64 Oct 31 22:04 5 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Oct 31 22:04 6 -> socket:[25574]
+lrwx------ 1 root root 64 Oct 31 22:04 7 -> socket:[33212]
+lrwx------ 1 root root 64 Oct 31 22:04 8 -> socket:[26321]
+lrwx------ 1 root root 64 Oct 31 22:04 9 -> /var/lib/docker/volumes/metadata.db

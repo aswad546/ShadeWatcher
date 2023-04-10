@@ -1,0 +1,337 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Oct27 ?        00:00:05 /sbin/init splash
+root         2     0  0 Oct27 ?        00:00:00 [kthreadd]
+root         4     2  0 Oct27 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 Oct27 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Oct27 ?        00:00:04 [ksoftirqd/0]
+root         8     2  0 Oct27 ?        00:05:19 [rcu_sched]
+root         9     2  0 Oct27 ?        00:00:00 [rcu_bh]
+root        10     2  0 Oct27 ?        00:00:00 [migration/0]
+root        11     2  0 Oct27 ?        00:00:00 [watchdog/0]
+root        12     2  0 Oct27 ?        00:00:00 [cpuhp/0]
+root        13     2  0 Oct27 ?        00:00:00 [cpuhp/1]
+root        14     2  0 Oct27 ?        00:00:00 [watchdog/1]
+root        15     2  0 Oct27 ?        00:00:00 [migration/1]
+root        16     2  0 Oct27 ?        00:00:02 [ksoftirqd/1]
+root        18     2  0 Oct27 ?        00:00:00 [kworker/1:0H]
+root        19     2  0 Oct27 ?        00:00:00 [cpuhp/2]
+root        20     2  0 Oct27 ?        00:00:00 [watchdog/2]
+root        21     2  0 Oct27 ?        00:00:00 [migration/2]
+root        22     2  0 Oct27 ?        00:00:02 [ksoftirqd/2]
+root        24     2  0 Oct27 ?        00:00:00 [kworker/2:0H]
+root        25     2  0 Oct27 ?        00:00:00 [cpuhp/3]
+root        26     2  0 Oct27 ?        00:00:00 [watchdog/3]
+root        27     2  0 Oct27 ?        00:00:00 [migration/3]
+root        28     2  0 Oct27 ?        00:00:01 [ksoftirqd/3]
+root        30     2  0 Oct27 ?        00:00:00 [kworker/3:0H]
+root        31     2  0 Oct27 ?        00:00:00 [cpuhp/4]
+root        32     2  0 Oct27 ?        00:00:00 [watchdog/4]
+root        33     2  0 Oct27 ?        00:00:00 [migration/4]
+root        34     2  0 Oct27 ?        00:00:01 [ksoftirqd/4]
+root        36     2  0 Oct27 ?        00:00:00 [kworker/4:0H]
+root        37     2  0 Oct27 ?        00:00:00 [cpuhp/5]
+root        38     2  0 Oct27 ?        00:00:00 [watchdog/5]
+root        39     2  0 Oct27 ?        00:00:00 [migration/5]
+root        40     2  0 Oct27 ?        00:00:01 [ksoftirqd/5]
+root        42     2  0 Oct27 ?        00:00:00 [kworker/5:0H]
+root        43     2  0 Oct27 ?        00:00:00 [cpuhp/6]
+root        44     2  0 Oct27 ?        00:00:00 [watchdog/6]
+root        45     2  0 Oct27 ?        00:00:00 [migration/6]
+root        46     2  0 Oct27 ?        00:00:09 [ksoftirqd/6]
+root        48     2  0 Oct27 ?        00:00:00 [kworker/6:0H]
+root        49     2  0 Oct27 ?        00:00:00 [cpuhp/7]
+root        50     2  0 Oct27 ?        00:00:00 [watchdog/7]
+root        51     2  0 Oct27 ?        00:00:00 [migration/7]
+root        52     2  0 Oct27 ?        00:00:01 [ksoftirqd/7]
+root        54     2  0 Oct27 ?        00:00:00 [kworker/7:0H]
+root        55     2  0 Oct27 ?        00:00:00 [cpuhp/8]
+root        56     2  0 Oct27 ?        00:00:00 [watchdog/8]
+root        57     2  0 Oct27 ?        00:00:00 [migration/8]
+root        58     2  0 Oct27 ?        00:00:01 [ksoftirqd/8]
+root        60     2  0 Oct27 ?        00:00:00 [kworker/8:0H]
+root        61     2  0 Oct27 ?        00:00:00 [cpuhp/9]
+root        62     2  0 Oct27 ?        00:00:00 [watchdog/9]
+root        63     2  0 Oct27 ?        00:00:00 [migration/9]
+root        64     2  0 Oct27 ?        00:00:01 [ksoftirqd/9]
+root        66     2  0 Oct27 ?        00:00:00 [kworker/9:0H]
+root        67     2  0 Oct27 ?        00:00:00 [cpuhp/10]
+root        68     2  0 Oct27 ?        00:00:00 [watchdog/10]
+root        69     2  0 Oct27 ?        00:00:00 [migration/10]
+root        70     2  0 Oct27 ?        00:00:01 [ksoftirqd/10]
+root        72     2  0 Oct27 ?        00:00:00 [kworker/10:0H]
+root        73     2  0 Oct27 ?        00:00:00 [cpuhp/11]
+root        74     2  0 Oct27 ?        00:00:00 [watchdog/11]
+root        75     2  0 Oct27 ?        00:00:00 [migration/11]
+root        76     2  0 Oct27 ?        00:00:18 [ksoftirqd/11]
+root        78     2  0 Oct27 ?        00:00:00 [kworker/11:0H]
+root        79     2  0 Oct27 ?        00:00:00 [kdevtmpfs]
+root        80     2  0 Oct27 ?        00:00:00 [netns]
+root        81     2  0 Oct27 ?        00:00:00 [rcu_tasks_kthre]
+root        82     2  0 Oct27 ?        00:00:01 [kauditd]
+root        85     2  0 Oct27 ?        00:00:00 [khungtaskd]
+root        86     2  0 Oct27 ?        00:00:00 [oom_reaper]
+root        87     2  0 Oct27 ?        00:00:00 [writeback]
+root        88     2  0 Oct27 ?        00:00:00 [kcompactd0]
+root        89     2  0 Oct27 ?        00:00:00 [ksmd]
+root        90     2  0 Oct27 ?        00:00:00 [khugepaged]
+root        91     2  0 Oct27 ?        00:00:00 [crypto]
+root        92     2  0 Oct27 ?        00:00:00 [kintegrityd]
+root        93     2  0 Oct27 ?        00:00:00 [kblockd]
+root       104     2  0 Oct27 ?        00:00:00 [ata_sff]
+root       105     2  0 Oct27 ?        00:00:00 [md]
+root       106     2  0 Oct27 ?        00:00:00 [edac-poller]
+root       107     2  0 Oct27 ?        00:00:00 [devfreq_wq]
+root       108     2  0 Oct27 ?        00:00:00 [watchdogd]
+root       111     2  0 Oct27 ?        00:03:19 [kswapd0]
+root       112     2  0 Oct27 ?        00:00:00 [kworker/u25:0]
+root       113     2  0 Oct27 ?        00:00:00 [ecryptfs-kthrea]
+root       155     2  0 Oct27 ?        00:00:00 [kthrotld]
+root       156     2  0 Oct27 ?        00:00:00 [acpi_thermal_pm]
+root       160     2  0 Oct27 ?        00:00:00 [ipv6_addrconf]
+root       169     2  0 Oct27 ?        00:00:00 [kstrp]
+root       190     2  0 Oct27 ?        00:00:00 [charger_manager]
+root       243     2  0 Oct27 ?        00:00:00 [scsi_eh_0]
+root       244     2  0 Oct27 ?        00:00:00 [scsi_tmf_0]
+root       245     2  0 Oct27 ?        00:00:00 [scsi_eh_1]
+root       246     2  0 Oct27 ?        00:00:00 [scsi_tmf_1]
+root       247     2  0 Oct27 ?        00:00:00 [scsi_eh_2]
+root       248     2  0 Oct27 ?        00:00:00 [scsi_tmf_2]
+root       249     2  0 Oct27 ?        00:00:00 [scsi_eh_3]
+root       250     2  0 Oct27 ?        00:00:00 [scsi_tmf_3]
+root       254     2  0 Oct27 ?        00:00:00 [nvkm-disp]
+root       255     2  0 Oct27 ?        00:00:00 [e1000e]
+root       258     2  0 Oct27 ?        00:00:00 [kworker/5:1H]
+root       259     2  0 Oct27 ?        00:00:32 [i915/signal:0]
+root       260     2  0 Oct27 ?        00:00:00 [i915/signal:1]
+root       261     2  0 Oct27 ?        00:00:00 [i915/signal:2]
+root       262     2  0 Oct27 ?        00:00:00 [i915/signal:4]
+root       266     2  0 Oct27 ?        00:00:00 [ttm_swap]
+root       288     2  0 Oct27 ?        00:00:00 [kworker/11:1H]
+root       289     2  0 Oct27 ?        00:00:22 [kworker/6:1H]
+root       291     2  0 Oct27 ?        00:00:20 [jbd2/sda2-8]
+root       292     2  0 Oct27 ?        00:00:00 [ext4-rsv-conver]
+root       320     2  0 Oct27 ?        00:00:00 [kworker/7:1H]
+root       325     2  0 Oct27 ?        00:00:00 [kworker/8:1H]
+root       334     1  0 Oct27 ?        00:00:11 /lib/systemd/systemd-journald
+root       342     2  0 Oct27 ?        00:00:00 [kworker/4:1H]
+root       376     1  0 Oct27 ?        00:00:03 /lib/systemd/systemd-udevd
+root       415     2  0 Oct27 ?        00:00:00 [kworker/0:1H]
+root       419     2  0 Oct27 ?        00:00:00 [kworker/3:1H]
+root       489     2  0 Oct27 ?        00:00:00 [irq/127-mei_me]
+root       551     2  0 Oct27 ?        00:00:00 [kworker/10:1H]
+root       631     2  0 Oct27 ?        00:00:00 [kworker/9:1H]
+root       682     2  0 Oct27 ?        00:00:00 [kworker/1:1H]
+systemd+   887     1  0 Oct27 ?        00:00:00 /lib/systemd/systemd-timesyncd
+anonymized    984 12507  0 Oct29 pts/8    00:00:00 bash
+syslog    1033     1  0 Oct27 ?        00:00:00 /usr/sbin/rsyslogd -n
+root      1062     1  0 Oct27 ?        00:00:06 /usr/sbin/acpid
+root      1081     1  0 Oct27 ?        00:00:00 /lib/systemd/systemd-logind
+message+  1085     1  0 Oct27 ?        00:00:05 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1213     1  0 Oct27 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root      1214     1  0 Oct27 ?        00:00:05 /usr/lib/accountsservice/accounts-daemon
+root      1218     1  0 Oct27 ?        00:00:31 /usr/sbin/thermald --no-daemon --dbus-enable
+avahi     1221     1  0 Oct27 ?        00:26:08 avahi-daemon: running [Cur.local]
+root      1249     1  0 Oct27 ?        00:00:00 /usr/sbin/cron -f
+root      1365     1  0 Oct27 ?        00:00:00 /usr/sbin/lightdm
+avahi     1370  1221  0 Oct27 ?        00:00:00 avahi-daemon: chroot helper
+root      1407     1  0 Oct27 ?        00:00:39 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+neo4j     1424     1  0 Oct29 ?        00:19:18 /usr/bin/java -cp /var/lib/neo4j/plugins:/etc/neo4j:/usr/share/neo4j/lib/*:/var/lib/neo4j/plugins/* -server -XX:+UseG1GC -XX:-OmitStackTraceInFastThrow -XX:+AlwaysPreTouch -XX:+UnlockExperimentalVMOptions -XX:+TrustFinalNonStaticFields -XX:+DisableExplicitGC -Djdk.tls.ephemeralDHKeySize=2048 -Djdk.tls.rejectClientInitiatedRenegotiation=true -Dunsupported.dbms.udc.source=debian -Dfile.encoding=UTF-8 org.neo4j.server.CommunityEntryPoint --home-dir=/var/lib/neo4j --config-dir=/etc/neo4j
+root      1551     1  0 Oct27 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1569     1  0 Oct27 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+colord    1573     1  0 Oct27 ?        00:00:00 /usr/lib/colord/colord
+root      1605     1  0 Oct27 ?        00:01:24 /usr/bin/containerd
+root      1630     2  0 Oct27 ?        00:00:00 [kworker/2:1H]
+root      1689     1  0 Oct27 ?        00:00:00 /usr/sbin/sshd -D
+root      1764     2  0 13:58 ?        00:00:00 [kworker/1:0]
+postgres  1798     1  0 Oct27 ?        00:00:05 /usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.conf
+root      1822  1213  0 Oct27 ?        00:00:01 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eno1.pid -lf /var/lib/NetworkManager/dhclient-a276dd1e-94cf-3868-ac36-2ff17a8d32af-eno1.lease -cf /var/lib/NetworkManager/dhclient-eno1.conf eno1
+nobody    1836  1213  0 Oct27 ?        00:00:03 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+postgres  2003  1798  0 Oct27 ?        00:00:00 postgres: 13/main: checkpointer 
+postgres  2004  1798  0 Oct27 ?        00:00:04 postgres: 13/main: background writer 
+postgres  2005  1798  0 Oct27 ?        00:00:04 postgres: 13/main: walwriter 
+postgres  2006  1798  0 Oct27 ?        00:00:03 postgres: 13/main: autovacuum launcher 
+postgres  2008  1798  0 Oct27 ?        00:00:04 postgres: 13/main: stats collector 
+postgres  2010  1798  0 Oct27 ?        00:00:00 postgres: 13/main: logical replication launcher 
+whoopsie  2129     1  0 Oct27 ?        00:00:00 /usr/bin/whoopsie -f
+root      2134     1  0 Oct27 ?        00:02:13 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root      2164     1  0 Oct27 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+openldap  2294     1  0 Oct27 ?        00:00:00 /usr/sbin/slapd -h ldap:/// ldapi:/// -g openldap -u openldap -F /etc/ldap/slapd.d
+rtkit     2322     1  0 Oct27 ?        00:00:03 /usr/lib/rtkit/rtkit-daemon
+root      2323     1  0 Oct27 ?        00:00:00 /usr/lib/upower/upowerd
+root      2408     2  0 Oct30 ?        00:00:02 [kworker/8:1]
+anonymized   2721     1  0 Oct27 ?        00:00:00 /lib/systemd/systemd --user
+anonymized   2722  2721  0 Oct27 ?        00:00:00 (sd-pam)
+anonymized   3112     1  1 Oct27 ?        01:50:52 /usr/bin/pulseaudio --start --log-target=syslog
+root      3326     1  0 Oct27 ?        00:00:22 /usr/lib/udisks2/udisksd --no-debug
+root      3360     1  0 Oct27 ?        00:00:03 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      4303  9368  0 16:47 ?        00:00:00 /usr/bin/vmware-usbarbitrator
+anonymized   4436  9368  0 Oct28 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.8 /org/gtk/gvfs/exec_spaw/2
+anonymized   4472  9368  0 Oct28 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.8 /org/gtk/gvfs/exec_spaw/5
+anonymized   4499  9368  0 Oct28 ?        00:13:35 /usr/share/code/code --no-sandbox ../src/
+anonymized   4501  4499  0 Oct28 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+anonymized   4502  4499  0 Oct28 ?        00:00:00 /usr/share/code/code --type=zygote --no-sandbox
+anonymized   4524  4501  0 Oct28 ?        00:48:49 /usr/share/code/code --type=gpu-process --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+anonymized   4540  4499  0 Oct28 ?        00:00:06 /usr/share/code/code --type=utility --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --shared-files=v8_snapshot_data:100
+anonymized   4554  4499  2 Oct28 ?        01:55:45 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+anonymized   4585  4554  0 Oct28 ?        00:07:47 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+anonymized   4601  4499  0 Oct28 ?        00:01:16 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+anonymized   4635  4554  0 Oct28 ?        00:00:25 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+anonymized   4654  4554  0 Oct29 pts/22   00:00:00 /bin/bash
+anonymized   4693  9368  2 Oct28 ?        01:40:13 /usr/lib/firefox/firefox
+anonymized   4765  4693  0 Oct28 ?        00:01:13 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized   4816  4693  0 Oct28 ?        00:02:55 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6324 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized   4910  4693  0 Oct28 ?        00:32:35 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 9211 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized   5027  4585  0 Oct28 ?        00:07:47 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools
+anonymized   6360  4693  0 Oct28 ?        00:38:07 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9541 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized   6439  4693  3 Oct28 ?        03:01:36 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 9541 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized   7151  9368  0 Oct28 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+anonymized   7164  9368  0 Oct28 ?        00:00:07 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+anonymized   7166  9368  0 Oct28 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+uuidd     7362     1  0 16:47 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+root      7430     1  0 16:48 ?        00:00:00 /usr/sbin/cupsd -l
+root      7431     1  0 16:48 ?        00:00:00 /usr/sbin/cups-browsed
+lp        7517  7430  0 16:48 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7597  7430  0 16:48 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+anonymized   7616  5027  0 Oct30 ?        00:00:08 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 207
+root      7668  9368  0 16:48 ?        00:00:00 /usr/sbin/vmware-authdlauncher
+anonymized   7875  5027  0 Oct30 ?        00:00:07 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 216
+anonymized   7907  5027  0 Oct30 ?        00:00:07 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 217
+anonymized   9182     1  9 Oct27 ?        09:26:06 fcitx
+root      9196  1365  0 Oct27 tty7     00:37:17 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      9260  1365  0 Oct27 ?        00:00:00 lightdm --session-child 12 19
+anonymized   9366     1  0 Oct27 ?        00:00:19 /usr/bin/gnome-keyring-daemon --daemonize --login
+anonymized   9368  9260  0 Oct27 ?        00:00:01 /sbin/upstart --user
+anonymized   9441  9368  0 Oct27 ?        00:00:00 upstart-udev-bridge --daemon --user
+anonymized   9449  9368  0 Oct27 ?        00:00:59 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-OORUog8WBX
+anonymized   9461  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+anonymized   9480  9368  0 Oct27 ?        00:00:10 /usr/bin/fcitx
+anonymized   9486  9368  0 Oct27 ?        00:00:06 upstart-dbus-bridge --daemon --session --user --bus-name session
+anonymized   9487  9368  0 Oct27 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+anonymized   9498  9368  0 Oct27 ?        00:00:00 upstart-file-bridge --daemon --user
+anonymized   9519  9368  0 Oct27 ?        00:00:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+anonymized   9523  9368  0 Oct27 ?        00:00:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-2wrAqV55lv,guid=bb27ab288b56ffe8e86943f25f9830fa 9519
+anonymized   9532  9368  0 Oct27 ?        00:00:21 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+anonymized   9535  9368  0 Oct27 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+anonymized   9542  9535  0 Oct27 ?        00:00:04 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+anonymized   9545  9368  0 Oct27 ?        00:00:23 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+anonymized   9547  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfsd
+anonymized   9554  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+anonymized   9562  9368  0 Oct27 ?        00:00:11 gpg-agent --homedir /home/anonymized/.gnupg --use-standard-socket --daemon
+anonymized   9572  9368  0 Oct27 ?        00:02:54 /usr/lib/x86_64-linux-gnu/hud/hud-service
+anonymized   9574  9368  0 Oct27 ?        00:00:08 /usr/lib/unity-settings-daemon/unity-settings-daemon
+anonymized   9582  9368  0 Oct27 ?        00:00:02 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+anonymized   9591  9368  0 Oct27 ?        00:02:44 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+anonymized   9612  9368  0 Oct27 ?        00:00:00 /usr/lib/dconf/dconf-service
+anonymized   9641  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+anonymized   9642  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+anonymized   9643  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+anonymized   9647  9368  0 Oct27 ?        00:00:05 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+anonymized   9649  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+anonymized   9653  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+anonymized   9655  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+anonymized   9656  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+anonymized   9664  9368  0 Oct27 ?        00:00:02 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+anonymized   9693  9368  0 Oct27 ?        00:29:09 compiz
+anonymized   9707  9368  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+anonymized   9723  9368  0 Oct27 ?        00:00:01 /usr/lib/x86_64-linux-gnu/notify-osd
+anonymized   9751  9368  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+anonymized   9756  9582  0 Oct27 ?        00:00:14 /usr/bin/gnome-software --gapplication-service
+anonymized   9759  9582  0 Oct27 ?        00:00:00 nm-applet
+anonymized   9760  9582  0 Oct27 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+anonymized   9761  9582  0 Oct27 ?        00:01:09 nautilus -n
+anonymized   9775  9582  0 Oct27 ?        00:00:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+anonymized   9791  9368  0 Oct27 ?        00:00:01 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+anonymized   9819  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+anonymized   9828  9368  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+anonymized   9834  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+anonymized   9840  9751  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx9751x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/9751/2
+anonymized   9850  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+anonymized   9855  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+anonymized   9882  9368  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+anonymized   9884  9751  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx9751x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/9751/3
+anonymized   9908  9882  0 Oct27 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx9882x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/9882/2
+anonymized   9960  9368  0 Oct27 ?        00:00:31 sogou-qimpanel-watchdog
+anonymized   9998  9368  0 Oct27 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+anonymized  10112  9582  0 Oct27 ?        00:00:05 zeitgeist-datahub
+anonymized  10135  9368  0 Oct27 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+anonymized  10141 10135  0 Oct27 ?        00:00:02 /usr/bin/zeitgeist-daemon
+anonymized  10152  9368  0 Oct27 ?        00:00:02 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+anonymized  10504  9582  0 Oct27 ?        00:00:06 update-notifier
+anonymized  10644  9582  0 Oct27 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+anonymized  10907  9368  0 Oct28 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+anonymized  11277  9368  0 Oct27 ?        00:00:00 SCREEN -S darpa
+anonymized  11278 11277  0 Oct27 pts/1    00:00:00 /bin/bash
+anonymized  11461     1  0 Oct27 ?        00:00:25 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 8 --config-file /usr/share/fcitx/dbus/daemon.conf
+anonymized  11469     1  0 Oct27 ?        00:00:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-V3xJuj4Grp,guid=dc1331fa8f51bc90e113a6f15f983286 11461
+anonymized  11538 12507  0 19:36 pts/26   00:00:00 bash
+anonymized  11551  9368  0 Oct27 ?        00:02:27 sogou-qimpanel
+root     11597     2  0 20:39 ?        00:00:00 [kworker/u24:1]
+anonymized  11647  5027  0 Oct30 ?        00:00:06 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 218
+root     11676     2  0 20:44 ?        00:00:00 [kworker/6:0]
+anonymized  11823  5027  0 Oct30 ?        00:00:07 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 219
+anonymized  12507  9368  0 Oct28 ?        00:01:46 /usr/lib/gnome-terminal/gnome-terminal-server
+anonymized  12512 12507  0 Oct28 pts/2    00:00:01 bash
+anonymized  12540  4693  0 Oct28 ?        00:27:37 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10226 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized  12699  4585  0 Oct28 ?        00:00:10 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=4585
+anonymized  13406  5027  0 Oct30 ?        00:00:06 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 223
+anonymized  13567  4693  0 Oct28 ?        00:35:20 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized  13672  4693  0 Oct28 ?        00:36:08 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized  13724  9368  0 Oct28 ?        00:00:32 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/generic.conf
+anonymized  13732  9368  0 Oct28 ?        00:00:32 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+anonymized  13735  9368  0 Oct28 ?        00:00:32 /usr/lib/speech-dispatcher-modules/sd_cicero /etc/speech-dispatcher/modules/cicero.conf
+anonymized  13736 13735  0 Oct28 ?        00:00:00 [sd_cicero] <defunct>
+anonymized  13739  9368  0 Oct28 ?        00:00:32 /usr/lib/speech-dispatcher-modules/sd_espeak /etc/speech-dispatcher/modules/espeak.conf
+anonymized  13744  9368  0 Oct28 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+anonymized  13760  9368  0 Oct28 ?        00:00:00 /usr/lib/libreoffice/program/oosplash --impress file:///home/anonymized/Downloads/smackslidecom-marple-mitigati-5f99247de3d36.pptx
+anonymized  13804 13760  0 Oct28 ?        00:06:15 /usr/lib/libreoffice/program/soffice.bin --impress file:///home/anonymized/Downloads/smackslidecom-marple-mitigati-5f99247de3d36.pptx --splash-pipe=5
+root     14178     2  0 21:15 ?        00:00:00 [kworker/1:2]
+anonymized  14840 12507  0 21:15 pts/27   00:00:00 bash
+root     14866     2  0 Oct30 ?        00:00:01 [kworker/4:2]
+root     15574     2  0 21:42 ?        00:00:00 [kworker/u24:4]
+root     15881     2  0 21:51 ?        00:00:00 [kworker/u24:0]
+root     15903     2  0 21:52 ?        00:00:00 [kworker/7:2]
+root     15954     2  0 21:54 ?        00:00:00 [kworker/0:0]
+root     16154     2  0 22:00 ?        00:00:00 [kworker/u24:2]
+root     16163     2  0 22:00 ?        00:00:00 [kworker/3:0]
+root     16168     2  0 22:01 ?        00:00:00 [kworker/6:1]
+root     16204     2  0 22:03 ?        00:00:00 [kworker/4:1]
+anonymized  16259 12512  0 Oct29 pts/2    00:00:00 ./driver
+root     17072     2  0 22:05 ?        00:00:00 [kworker/8:2]
+root     17131     2  0 22:07 ?        00:00:00 [kworker/9:1]
+root     17155     2  0 22:07 ?        00:00:00 [kworker/11:0]
+root     17165     2  0 22:07 ?        00:00:00 [kworker/7:1]
+root     17169     2  0 22:07 ?        00:00:00 [kworker/10:2]
+root     17187     2  0 22:07 ?        00:00:00 [kworker/5:2]
+root     17250     2  0 22:08 ?        00:00:00 [kworker/0:1]
+root     17260     2  0 22:09 ?        00:00:00 [kworker/2:0]
+root     17277     2  0 22:10 ?        00:00:00 [kworker/6:2]
+root     17288     2  0 22:12 ?        00:00:00 [kworker/3:2]
+root     17289     2  0 22:12 ?        00:00:00 [kworker/4:0]
+root     17312     2  0 22:12 ?        00:00:00 [kworker/7:0]
+root     17320     2  0 22:13 ?        00:00:00 [kworker/9:2]
+root     17338     2  0 22:13 ?        00:00:00 [kworker/u24:3]
+root     17346 29387  0 22:14 pts/23   00:00:00 sudo bash ./config.sh nano_scp_1
+root     17347 17346  0 22:14 pts/23   00:00:00 bash ./config.sh nano_scp_1
+root     17362 17347  0 22:14 pts/23   00:00:00 ps -ef
+root     17363     2  0 22:14 ?        00:00:00 [kworker/10:0]
+anonymized  18463  4693  0 Oct28 ?        00:07:18 /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+anonymized  19595  4693  0 Oct28 ?        00:20:00 /usr/lib/firefox/firefox -contentproc -childID 16 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+root     24767     2  0 10:24 ?        00:00:00 [kworker/5:1]
+root     25057     2  0 10:57 ?        00:00:00 [kworker/2:1]
+anonymized  26291  5027  0 12:54 ?        00:00:01 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 226
+anonymized  26487  5027  0 13:00 ?        00:00:01 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 227
+anonymized  26689  5027  0 13:08 ?        00:00:01 /home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 228
+anonymized  26912  4499  0 13:13 ?        00:01:47 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+anonymized  26955 26912  0 13:13 ?        00:00:07 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+anonymized  26962 26912  0 13:13 ?        00:00:06 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+anonymized  28270 12507  0 13:22 pts/24   00:00:00 bash
+root     28282 28270  0 13:22 pts/24   00:00:00 sudo su
+root     28284 28282  0 13:22 pts/24   00:00:00 su
+root     28285 28284  0 13:22 pts/24   00:00:00 bash
+root     29113     2  0 13:31 ?        00:00:00 [audit_prune_tre]
+root     29245     2  0 13:31 ?        00:00:00 [kworker/3:1]
+root     29278     2  0 13:31 ?        00:00:00 [kworker/9:0]
+anonymized  29387 12507  0 13:32 pts/23   00:00:00 bash
+root     30784     2  0 13:40 ?        00:00:00 [kworker/11:2]
+root     30862     2  0 13:40 ?        00:00:00 [kworker/10:1]
+anonymized  32325 12507  0 Oct29 pts/4    00:00:00 bash

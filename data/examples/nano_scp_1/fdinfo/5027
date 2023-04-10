@@ -1,0 +1,193 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> socket:[1225488]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> socket:[1225490]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 100 -> pipe:[6771456]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 101 -> pipe:[6771457]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 102 -> pipe:[6771457]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 104 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 105 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 106 -> /tmp/pipe_server_request_5027_217
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 107 -> /tmp/pipe_client_response_5027_217
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 108 -> /tmp/pipe_client_request_5027_217
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 109 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 110 -> /tmp/pipe_server_response_5027_217
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 111 -> pipe:[6804582]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 112 -> pipe:[6779753]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 113 -> pipe:[6768194]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 114 -> pipe:[6768194]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 115 -> pipe:[6768195]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 116 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 117 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 118 -> pipe:[6768195]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 119 -> pipe:[6768196]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 120 -> pipe:[6768196]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 121 -> /tmp/pipe_server_request_5027_207
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 122 -> /tmp/pipe_client_response_5027_207
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 123 -> pipe:[6804582]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 124 -> pipe:[6804583]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 125 -> pipe:[6804583]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 126 -> pipe:[6804584]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 127 -> pipe:[6804584]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 128 -> /tmp/pipe_server_request_5027_223
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 129 -> /tmp/pipe_client_response_5027_223
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 130 -> /tmp/pipe_client_request_5027_223
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 131 -> /tmp/pipe_server_response_5027_223
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 132 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 133 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 134 -> /tmp/pipe_client_request_5027_207
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 135 -> /tmp/pipe_server_response_5027_207
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 136 -> pipe:[6779753]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 137 -> pipe:[6779754]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 138 -> pipe:[6779754]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 139 -> pipe:[6779755]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 140 -> pipe:[6779755]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 141 -> /tmp/pipe_server_request_5027_218
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 142 -> /tmp/pipe_client_response_5027_218
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 143 -> /tmp/pipe_client_request_5027_218
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 144 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 145 -> /tmp/pipe_server_response_5027_218
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 146 -> pipe:[6848601]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 147 -> pipe:[6848601]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 148 -> pipe:[6840104]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 149 -> pipe:[6840104]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 150 -> pipe:[6840105]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 151 -> pipe:[6840105]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 152 -> pipe:[6840106]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 153 -> pipe:[6840106]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 154 -> /tmp/pipe_server_request_5027_228
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 155 -> /tmp/pipe_client_response_5027_228
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 156 -> /tmp/pipe_client_request_5027_228
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 157 -> pipe:[6848602]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 158 -> pipe:[6848602]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 159 -> pipe:[6848603]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> pipe:[6782620]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 160 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 161 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 162 -> pipe:[6848603]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 163 -> /tmp/pipe_server_request_5027_227
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 164 -> /tmp/pipe_client_response_5027_227
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 165 -> /tmp/pipe_client_request_5027_227
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 166 -> /tmp/pipe_server_response_5027_227
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 167 -> /tmp/pipe_server_response_5027_228
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 168 -> pipe:[6839952]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 169 -> pipe:[6839952]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> pipe:[6782620]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 170 -> pipe:[6839953]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> pipe:[6782621]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 181 -> pipe:[6839953]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 182 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 183 -> pipe:[6772956]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 184 -> pipe:[6839954]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 185 -> pipe:[6839954]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 186 -> /tmp/pipe_server_request_5027_226
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 187 -> /tmp/pipe_client_response_5027_226
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 188 -> /tmp/pipe_client_request_5027_226
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 189 -> /tmp/pipe_server_response_5027_226
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> pipe:[6782621]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> /usr/share/code/v8_context_snapshot.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 204 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> pipe:[6782622]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 213 -> pipe:[6772956]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 214 -> pipe:[6772957]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 215 -> pipe:[6772957]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 216 -> pipe:[6772958]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 217 -> pipe:[6772958]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 218 -> /tmp/pipe_server_request_5027_216
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 219 -> /tmp/pipe_client_response_5027_216
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> pipe:[6782622]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 220 -> /tmp/pipe_client_request_5027_216
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 221 -> /tmp/pipe_server_response_5027_216
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> /tmp/pipe_server_request_5027_219
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> /tmp/pipe_client_response_5027_219
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> /tmp/pipe_client_request_5027_219
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> /tmp/pipe_server_response_5027_219
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1163891]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> /proc/4554/statm
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /proc/4554/status
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/shm/.org.chromium.Chromium.HsULcY (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> socket:[1168636]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> /dev/shm/.org.chromium.Chromium.SpJ4wx (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> /dev/shm/.org.chromium.Chromium.R7e3bG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/shm/.org.chromium.Chromium.USLuR6 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> /dev/shm/.org.chromium.Chromium.sJLpyf (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> /dev/shm/.org.chromium.Chromium.B4QMUO (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 43 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /dev/shm/.org.chromium.Chromium.N2IoW8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 47 -> pipe:[6771455]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 48 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 49 -> /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-shm
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> pipe:[6771455]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 51 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 53 -> /dev/shm/.org.chromium.Chromium.d78rGp (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 56 -> /dev/shm/.org.chromium.Chromium.ObOxh1 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 57 -> /dev/shm/.org.chromium.Chromium.yHI1dG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 58 -> /dev/shm/.org.chromium.Chromium.rVkwal (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 59 -> /dev/shm/.org.chromium.Chromium.ZK016Z (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 60 -> /dev/shm/.org.chromium.Chromium.8njC3E (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 61 -> /dev/shm/.org.chromium.Chromium.y3vd0j (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 62 -> /dev/shm/.org.chromium.Chromium.QPHUWY (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 63 -> /dev/shm/.org.chromium.Chromium.aCICTD (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 64 -> /dev/shm/.org.chromium.Chromium.S5gnQi (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 65 -> /dev/shm/.org.chromium.Chromium.GkScNX (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 66 -> /dev/shm/.org.chromium.Chromium.Suy3JC (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 67 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 68 -> /dev/shm/.org.chromium.Chromium.z5MUGh (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 69 -> /dev/shm/.org.chromium.Chromium.k1LMDW (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 70 -> /dev/shm/.org.chromium.Chromium.6LzFAB (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 71 -> /dev/shm/.org.chromium.Chromium.q0aAxg (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 72 -> /dev/shm/.org.chromium.Chromium.HzKrrA (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 73 -> /dev/shm/.org.chromium.Chromium.98xvuV (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 74 -> /dev/shm/.org.chromium.Chromium.IXJoof (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 75 -> /dev/shm/.org.chromium.Chromium.HswmlU (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 76 -> /dev/shm/.org.chromium.Chromium.AFaliz (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 77 -> /dev/shm/.org.chromium.Chromium.63Er3R (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 78 -> /dev/shm/.org.chromium.Chromium.uUzkfe (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 79 -> /dev/shm/.org.chromium.Chromium.lb2kcT (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 80 -> /dev/shm/.org.chromium.Chromium.lG7l9x (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> /dev/shm/.org.chromium.Chromium.0SBn6c (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 82 -> /dev/shm/.org.chromium.Chromium.kLww0w (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 83 -> /dev/shm/.org.chromium.Chromium.UtYBXb (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 84 -> /dev/shm/.org.chromium.Chromium.6HPOUQ (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 85 -> /dev/shm/.org.chromium.Chromium.x6v2Rv (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 86 -> /dev/shm/.org.chromium.Chromium.GejOJu (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 87 -> /dev/shm/.org.chromium.Chromium.cgOgPa (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 88 -> /dev/shm/.org.chromium.Chromium.EnJvMP (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 89 -> /dev/shm/.org.chromium.Chromium.7ULrEO (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 90 -> /dev/shm/.org.chromium.Chromium.mQC7G9 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 91 -> /dev/shm/.org.chromium.Chromium.J7AMBt (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 92 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 93 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 94 -> pipe:[6771456]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 95 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 96 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 97 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 98 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 99 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/ms-vscode.cpptools/.browse.VC.db

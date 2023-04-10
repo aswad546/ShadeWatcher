@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 31 22:04 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/pts/27
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/pts/27
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/pts/27
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 255 -> /dev/pts/27

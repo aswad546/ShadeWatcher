@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:14 .
+dr-xr-xr-x 9 root root  0 Oct 31 22:14 ..
+lrwx------ 1 root root 64 Oct 31 22:14 0 -> /dev/pts/23
+lrwx------ 1 root root 64 Oct 31 22:14 1 -> /dev/pts/23
+lrwx------ 1 root root 64 Oct 31 22:14 2 -> /dev/pts/23
+lr-x------ 1 root root 64 Oct 31 22:14 255 -> /home/anonymized/Sherlock/audit/config.sh

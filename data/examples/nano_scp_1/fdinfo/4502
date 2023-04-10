@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /usr/share/code/resources.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1162887]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1162881]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> /usr/share/code/locales/en-US.pak

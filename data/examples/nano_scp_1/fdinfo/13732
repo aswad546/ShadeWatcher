@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 29 17:07 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> pipe:[3005983]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> pipe:[3005984]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> pipe:[3009757]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> /run/user/1000/speech-dispatcher/log/generic.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> socket:[3009761]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> anon_inode:[eventfd]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> /run/user/1000/speech-dispatcher/log/dummy.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> anon_inode:[eventfd]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /run/user/1000/speech-dispatcher/log/dummy.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> /run/user/1000/speech-dispatcher/pid/speech-dispatcher.pid (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> pipe:[3009740]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> pipe:[3009740]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> pipe:[3009757]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> /run/user/1000/speech-dispatcher/log/speech-dispatcher.log
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> pipe:[3009741]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> pipe:[3009742]

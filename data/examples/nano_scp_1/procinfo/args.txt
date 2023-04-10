@@ -1,0 +1,337 @@
+COMMAND
+/sbin/init splash
+[kthreadd]
+[kworker/0:0H]
+[mm_percpu_wq]
+[ksoftirqd/0]
+[rcu_sched]
+[rcu_bh]
+[migration/0]
+[watchdog/0]
+[cpuhp/0]
+[cpuhp/1]
+[watchdog/1]
+[migration/1]
+[ksoftirqd/1]
+[kworker/1:0H]
+[cpuhp/2]
+[watchdog/2]
+[migration/2]
+[ksoftirqd/2]
+[kworker/2:0H]
+[cpuhp/3]
+[watchdog/3]
+[migration/3]
+[ksoftirqd/3]
+[kworker/3:0H]
+[cpuhp/4]
+[watchdog/4]
+[migration/4]
+[ksoftirqd/4]
+[kworker/4:0H]
+[cpuhp/5]
+[watchdog/5]
+[migration/5]
+[ksoftirqd/5]
+[kworker/5:0H]
+[cpuhp/6]
+[watchdog/6]
+[migration/6]
+[ksoftirqd/6]
+[kworker/6:0H]
+[cpuhp/7]
+[watchdog/7]
+[migration/7]
+[ksoftirqd/7]
+[kworker/7:0H]
+[cpuhp/8]
+[watchdog/8]
+[migration/8]
+[ksoftirqd/8]
+[kworker/8:0H]
+[cpuhp/9]
+[watchdog/9]
+[migration/9]
+[ksoftirqd/9]
+[kworker/9:0H]
+[cpuhp/10]
+[watchdog/10]
+[migration/10]
+[ksoftirqd/10]
+[kworker/10:0H]
+[cpuhp/11]
+[watchdog/11]
+[migration/11]
+[ksoftirqd/11]
+[kworker/11:0H]
+[kdevtmpfs]
+[netns]
+[rcu_tasks_kthre]
+[kauditd]
+[khungtaskd]
+[oom_reaper]
+[writeback]
+[kcompactd0]
+[ksmd]
+[khugepaged]
+[crypto]
+[kintegrityd]
+[kblockd]
+[ata_sff]
+[md]
+[edac-poller]
+[devfreq_wq]
+[watchdogd]
+[kswapd0]
+[kworker/u25:0]
+[ecryptfs-kthrea]
+[kthrotld]
+[acpi_thermal_pm]
+[ipv6_addrconf]
+[kstrp]
+[charger_manager]
+[scsi_eh_0]
+[scsi_tmf_0]
+[scsi_eh_1]
+[scsi_tmf_1]
+[scsi_eh_2]
+[scsi_tmf_2]
+[scsi_eh_3]
+[scsi_tmf_3]
+[nvkm-disp]
+[e1000e]
+[kworker/5:1H]
+[i915/signal:0]
+[i915/signal:1]
+[i915/signal:2]
+[i915/signal:4]
+[ttm_swap]
+[kworker/11:1H]
+[kworker/6:1H]
+[jbd2/sda2-8]
+[ext4-rsv-conver]
+[kworker/7:1H]
+[kworker/8:1H]
+/lib/systemd/systemd-journald
+[kworker/4:1H]
+/lib/systemd/systemd-udevd
+[kworker/0:1H]
+[kworker/3:1H]
+[irq/127-mei_me]
+[kworker/10:1H]
+[kworker/9:1H]
+[kworker/1:1H]
+/lib/systemd/systemd-timesyncd
+bash
+/usr/sbin/rsyslogd -n
+/usr/sbin/acpid
+/lib/systemd/systemd-logind
+/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+/usr/sbin/NetworkManager --no-daemon
+/usr/lib/accountsservice/accounts-daemon
+/usr/sbin/thermald --no-daemon --dbus-enable
+avahi-daemon: running [Cur.local]
+/usr/sbin/cron -f
+/usr/sbin/lightdm
+avahi-daemon: chroot helper
+/usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+/usr/bin/java -cp /var/lib/neo4j/plugins:/etc/neo4j:/usr/share/neo4j/lib/*:/var/lib/neo4j/plugins/* -server -XX:+UseG1GC -XX:-OmitStackTraceInFastThrow -XX:+AlwaysPreTouch -XX:+UnlockExperimentalVMOptions -XX:+TrustFinalNonStaticFields -XX:+DisableExplicitGC -Djdk.tls.ephemeralDHKeySize=2048 -Djdk.tls.rejectClientInitiatedRenegotiation=true -Dunsupported.dbms.udc.source=debian -Dfile.encoding=UTF-8 org.neo4j.server.CommunityEntryPoint --home-dir=/var/lib/neo4j --config-dir=/etc/neo4j
+/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+/usr/lib/policykit-1/polkitd --no-debug
+/usr/lib/colord/colord
+/usr/bin/containerd
+[kworker/2:1H]
+/usr/sbin/sshd -D
+[kworker/1:0]
+/usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.conf
+/sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eno1.pid -lf /var/lib/NetworkManager/dhclient-a276dd1e-94cf-3868-ac36-2ff17a8d32af-eno1.lease -cf /var/lib/NetworkManager/dhclient-eno1.conf eno1
+/usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+postgres: 13/main: checkpointer 
+postgres: 13/main: background writer 
+postgres: 13/main: walwriter 
+postgres: 13/main: autovacuum launcher 
+postgres: 13/main: stats collector 
+postgres: 13/main: logical replication launcher 
+/usr/bin/whoopsie -f
+/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+/sbin/agetty --noclear tty1 linux
+/usr/sbin/slapd -h ldap:/// ldapi:/// -g openldap -u openldap -F /etc/ldap/slapd.d
+/usr/lib/rtkit/rtkit-daemon
+/usr/lib/upower/upowerd
+[kworker/8:1]
+/lib/systemd/systemd --user
+(sd-pam)
+/usr/bin/pulseaudio --start --log-target=syslog
+/usr/lib/udisks2/udisksd --no-debug
+/usr/lib/x86_64-linux-gnu/fwupd/fwupd
+/usr/bin/vmware-usbarbitrator
+/usr/lib/gvfs/gvfsd-network --spawner :1.8 /org/gtk/gvfs/exec_spaw/2
+/usr/lib/gvfs/gvfsd-dnssd --spawner :1.8 /org/gtk/gvfs/exec_spaw/5
+/usr/share/code/code --no-sandbox ../src/
+/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+/usr/share/code/code --type=zygote --no-sandbox
+/usr/share/code/code --type=gpu-process --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+/usr/share/code/code --type=utility --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --shared-files=v8_snapshot_data:100
+/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+/usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+/usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+/bin/bash
+/usr/lib/firefox/firefox
+/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6324 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 9211 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools
+/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9541 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 9541 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+/usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+/usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+/usr/sbin/uuidd --socket-activation
+/usr/sbin/cupsd -l
+/usr/sbin/cups-browsed
+/usr/lib/cups/notifier/dbus dbus://
+/usr/lib/cups/notifier/dbus dbus://
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 207
+/usr/sbin/vmware-authdlauncher
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 216
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 217
+fcitx
+/usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+lightdm --session-child 12 19
+/usr/bin/gnome-keyring-daemon --daemonize --login
+/sbin/upstart --user
+upstart-udev-bridge --daemon --user
+dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-OORUog8WBX
+/usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+/usr/bin/fcitx
+upstart-dbus-bridge --daemon --session --user --bus-name session
+upstart-dbus-bridge --daemon --system --user --bus-name system
+upstart-file-bridge --daemon --user
+/usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+/usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-2wrAqV55lv,guid=bb27ab288b56ffe8e86943f25f9830fa 9519
+/usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+/usr/lib/at-spi2-core/at-spi-bus-launcher
+/usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+/usr/lib/gvfs/gvfsd
+/usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+gpg-agent --homedir /home/anonymized/.gnupg --use-standard-socket --daemon
+/usr/lib/x86_64-linux-gnu/hud/hud-service
+/usr/lib/unity-settings-daemon/unity-settings-daemon
+/usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+/usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+/usr/lib/dconf/dconf-service
+/usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+/usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+/usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+/usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+/usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+/usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+/usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+compiz
+/usr/lib/evolution/evolution-source-registry
+/usr/lib/x86_64-linux-gnu/notify-osd
+/usr/lib/evolution/evolution-calendar-factory
+/usr/bin/gnome-software --gapplication-service
+nm-applet
+/usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+nautilus -n
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+/usr/lib/gvfs/gvfs-udisks2-volume-monitor
+/usr/lib/gvfs/gvfs-afc-volume-monitor
+/usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+/usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+/usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx9751x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/9751/2
+/usr/lib/gvfs/gvfs-goa-volume-monitor
+/usr/lib/gvfs/gvfs-mtp-volume-monitor
+/usr/lib/evolution/evolution-addressbook-factory
+/usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx9751x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/9751/3
+/usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx9882x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/9882/2
+sogou-qimpanel-watchdog
+/usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+zeitgeist-datahub
+/bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+/usr/bin/zeitgeist-daemon
+/usr/lib/x86_64-linux-gnu/zeitgeist-fts
+update-notifier
+/usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+/usr/lib/gvfs/gvfsd-metadata
+SCREEN -S darpa
+/bin/bash
+/usr/bin/dbus-daemon --fork --print-pid 5 --print-address 8 --config-file /usr/share/fcitx/dbus/daemon.conf
+/usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-V3xJuj4Grp,guid=dc1331fa8f51bc90e113a6f15f983286 11461
+bash
+sogou-qimpanel
+[kworker/u24:1]
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 218
+[kworker/6:0]
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 219
+/usr/lib/gnome-terminal/gnome-terminal-server
+bash
+/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10226 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=4585
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 223
+/usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/generic.conf
+/usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+/usr/lib/speech-dispatcher-modules/sd_cicero /etc/speech-dispatcher/modules/cicero.conf
+[sd_cicero] <defunct>
+/usr/lib/speech-dispatcher-modules/sd_espeak /etc/speech-dispatcher/modules/espeak.conf
+/usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+/usr/lib/libreoffice/program/oosplash --impress file:///home/anonymized/Downloads/smackslidecom-marple-mitigati-5f99247de3d36.pptx
+/usr/lib/libreoffice/program/soffice.bin --impress file:///home/anonymized/Downloads/smackslidecom-marple-mitigati-5f99247de3d36.pptx --splash-pipe=5
+[kworker/1:2]
+bash
+[kworker/4:2]
+[kworker/u24:4]
+[kworker/u24:0]
+[kworker/7:2]
+[kworker/0:0]
+[kworker/u24:2]
+[kworker/3:0]
+[kworker/6:1]
+[kworker/4:1]
+./driver
+[kworker/8:2]
+[kworker/9:1]
+[kworker/11:0]
+[kworker/7:1]
+[kworker/10:2]
+[kworker/5:2]
+[kworker/0:1]
+[kworker/2:0]
+[kworker/6:2]
+[kworker/3:2]
+[kworker/4:0]
+[kworker/7:0]
+[kworker/9:2]
+[kworker/u24:3]
+sudo bash ./config.sh nano_scp_1
+bash ./config.sh nano_scp_1
+[kworker/10:0]
+ps -eo args
+/usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+/usr/lib/firefox/firefox -contentproc -childID 16 -isForBrowser -prefsLen 10291 -prefMapSize 228495 -parentBuildID 20201014125134 -appdir /usr/lib/firefox/browser 4693 true tab
+[kworker/5:1]
+[kworker/2:1]
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 226
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 227
+/home/anonymized/.vscode/extensions/ms-vscode.cpptools-1.0.1/bin/cpptools-srv 5027 228
+/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=12160288744938646903,1100927733753272460,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel --global-crash-keys=bfde6216-54b1-47fa-a972-c75b1fc3c307,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.2 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+/usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+/usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+bash
+sudo su
+su
+bash
+[audit_prune_tre]
+[kworker/3:1]
+[kworker/9:0]
+bash
+[kworker/11:2]
+[kworker/10:1]
+bash

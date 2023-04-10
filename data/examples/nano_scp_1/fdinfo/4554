@@ -1,0 +1,86 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 28 11:49 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> pipe:[1168634]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 104 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 105 -> /dev/shm/.org.chromium.Chromium.7bLAc7 (deleted)
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 106 -> /home/anonymized/.config/Code/logs/20201028T114941/renderer1.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 107 -> /dev/shm/.org.chromium.Chromium.LcKrJO (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 108 -> anon_inode:[eventfd]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> pipe:[1168634]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 110 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 128 -> socket:[1163964]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 129 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 132 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 134 -> socket:[1165207]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 135 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 136 -> /dev/urandom
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> socket:[1165200]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> socket:[1165201]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> pipe:[1165202]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> pipe:[1165202]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> socket:[1170576]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> socket:[1170577]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> pipe:[1170578]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> pipe:[1170578]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1160890]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1163891]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> /proc/4554/statm
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /proc/4554/status
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/shm/.org.chromium.Chromium.HsULcY (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> socket:[1168636]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> /dev/shm/.org.chromium.Chromium.R7e3bG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/shm/.org.chromium.Chromium.UJUxCi (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> /dev/shm/.org.chromium.Chromium.sJLpyf (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1162881]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 40 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> /dev/shm/.org.chromium.Chromium.B4QMUO (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 42 -> pipe:[1162937]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 43 -> pipe:[1162937]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 44 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /dev/shm/.org.chromium.Chromium.N2IoW8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 47 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 48 -> anon_inode:inotify
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 49 -> /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1162931]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 50 -> socket:[1162952]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 51 -> socket:[1162941]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 56 -> socket:[1171624]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 57 -> /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 58 -> /dev/shm/.org.chromium.Chromium.cmjaMo (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 59 -> /dev/ptmx
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 61 -> socket:[1169809]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 67 -> /home/anonymized/.config/Code/User/workspaceStorage/34b62e9dbb79eef244f1bef8b3150834/state.vscdb
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 79 -> /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> pipe:[1168633]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 80 -> /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> /usr/share/fonts/truetype/freefont/FreeSerif.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 82 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> pipe:[1168633]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 93 -> socket:[1162943]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 95 -> socket:[1162945]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 96 -> /home/anonymized/.config/Code/logs/20201028T114941/output_1_20201028T114944/tasks.log
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 97 -> socket:[1162947]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 99 -> /home/anonymized/.config/Code/logs/20201028T114941/output_1_20201028T114944/extensions.log

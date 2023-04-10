@@ -1,0 +1,35 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> socket:[1166969]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> socket:[1166970]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /dev/urandom
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> pipe:[1166971]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> pipe:[1166971]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> socket:[1171614]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> socket:[1171615]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> pipe:[1171616]
+l-wx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> pipe:[1171616]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> socket:[1166968]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> /home/anonymized/.config/Code/Cookies
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> socket:[1170570]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> socket:[6848053]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> /home/anonymized/.pki/nssdb/cert9.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 29 -> /home/anonymized/.pki/nssdb/key4.db
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1170568]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1165209]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> socket:[1169810]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> /usr/share/code/icudtl.dat
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1166966]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> /usr/share/code/chrome_200_percent.pak

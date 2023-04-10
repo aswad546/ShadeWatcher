@@ -1,4 +1,7 @@
 #include "kg.h"
+#include <cstdint>
+
+
 
 KG::KG(int _audit_source) {
 	audit_source = _audit_source;
@@ -397,9 +400,14 @@ void KG::InsertEdge(KGEdge *edge) {
 
 void KG::InsertEdge(hash_t e_id, KGEdge *edge) {
 	// Todo: address hash collision problem
+	//     N + 1
+	// node : hash 
+
+	// edge traverse : list node : count
 	while (1) {
 		auto _it = KGEdgeTable.find(e_id);
 		if (_it != KGEdgeTable.end()) {
+			
 			e_id++;
 			edge->e_id = e_id;
 		}
@@ -430,6 +438,7 @@ bool KG::SearchNodeNotExist(hash_t _id) {
 	}
 }
 
+//Returns annotations for a node
 std::pair<NodeType_t, std::string> KG::SearchNode(hash_t _id) {
 	auto it = KGNodeTable.find(_id);
 	if (it == KGNodeTable.end()){
@@ -974,7 +983,7 @@ void KG::PrintFd() {
 void KG::InsertFileInteraction(hash_t f_hash, KGEdge *edge) {
 	// 1. locate the file in the unordered_map
 	auto it = FileInteractionTable.find(f_hash);
-	if (it != FileInteractionTable.end()) {
+		if (it != FileInteractionTable.end()) {
 		inter_map *im = it->second;
 		// std::cerr << "Not first insertion for this file!" << std::endl;
 		// 2. insert the edge into the inner map
@@ -1321,3 +1330,177 @@ void KG::ProcInfoRecover() {
 		ExchangeMapKey(ProcInteractionTable, p_old_id, p_new_id);
 	}
 }
+
+void KG::InsertObjectInteractions(hash_t p_hash, hash_t child_hash)  {
+	auto it = ObjectInteractionTable.find(p_hash);
+	if (it != ObjectInteractionTable.end()) {
+		std::cout << "Existing interaction list" << std::endl;
+		ObjectInteractionTable[p_hash]->push_back(child_hash);
+	} else {
+		std::cout << "Creating new interaction list" << std::endl;
+		std::vector<hash_t>* interaction = new std::vector<hash_t>;
+		interaction->push_back(child_hash);
+		ObjectInteractionTable[p_hash] = interaction;
+	}
+}
+
+
+std::vector<KGEdge*> KG::FindAllChildren(hash_t p_hash, uint64_t minTime) {
+	//add parents
+	NodeType_t type = KGNodeTable[p_hash];
+	std::vector<KGEdge*> childEdges;
+
+	//Find initial mintime if start node
+	if (minTime == UINT64_MAX) {
+		std::cout << "Finding Min Time for Root Node" << std::endl;
+		for (auto &it: KGEdgeTable){
+			KGEdge *edge = it.second;
+			//Check parent edges
+			// std::cout << "Check " << p_hash << std::endl;
+			// std::cout << "Edge child " << edge->n2_hash << std::endl;
+			if (edge->n2_hash == p_hash) {
+				std::cout << "Found parent" << std::endl;
+				int64_t timestampNanos = std::stoll(edge->timestamp);
+				std::cout << "Parent edge timestamp: " << timestampNanos << std::endl;
+				std::cout << "Current Mintime: " << minTime << std::endl;
+				std::cout << "Update timestamp? " << (timestampNanos < minTime ? "True" : "False") << std::endl;
+				if (timestampNanos < minTime) minTime = timestampNanos;
+			}
+		}
+		if (minTime == UINT64_MAX) {
+			std::cout << "No parents for Root" << std::endl;
+			minTime = -1;
+		}
+	}
+	
+	std::cout << "Finding child: [" ;
+	bool edge_missed = true; 
+	for (auto &it: KGEdgeTable){ //all edges
+			KGEdge *edge = it.second;
+			// std::cout << "Check " << p_hash << std::endl;
+			// std::cout << "Edge Parent " << edge->n1_hash << std::endl;
+			if (edge->n1_hash == p_hash) {
+				std::cout << "Found a possible child" << std::endl;
+				if (std::stoll(edge->timestamp) >= minTime) {
+					
+					childEdges.push_back(edge);
+					std::cout << edge->n2_hash << ", ";
+					}
+			}
+			else{
+				edge_missed = false;
+			}
+			// another check if all edges > min time(and p_hash is dataobject), then dont do dfs on p_hash later 
+	}
+	std::cout << "]" << std::endl;
+	type = KGNodeTable[p_hash];
+	if ((!edge_missed) && (type == NodeType_t::File)) SkipObjectInteractionTable.insert(p_hash);
+	return childEdges;
+}
+
+void KG::FindOneHopParents(hash_t c_hash){
+	//Add One Hop Incoming Parents
+	std::vector<KGEdge*> parentEdges;
+	std::cout << "Checking One Hop Parnets of : " << c_hash << std::endl;
+	for (auto &it: KGEdgeTable){
+		KGEdge *edge = it.second;
+
+		if (edge->n2_hash == c_hash) {
+			InsertObjectInteractions(c_hash, edge->n1_hash);
+			parentEdges.push_back(edge);
+			std::cout << "One Hop Parent: " << edge->n1_hash << std::endl;
+		}
+	}
+
+	// Check Edges Of Parent to Exclude in DFS 
+	for (auto &it: parentEdges){
+		KGEdge *edge = it;
+		NodeType_t type = KGNodeTable[edge->n1_hash];
+		if(type != NodeType_t::File) { // if type is not file
+			continue;
+		}
+		// optimization here
+		int64_t count = OneHopChildCount[edge->n1_hash];
+		if (count == 1){
+			SkipObjectInteractionTable.insert(edge->n1_hash);
+			std::cout << "Skipping this node: " << edge->n1_hash << std::endl;
+		}
+	}
+}
+
+//Depth first search implementation for behavior abstraction
+void KG::FindInteractiveEntities(hash_t startNode, hash_t currNode, int8_t depth, std::set<hash_t> visited, uint64_t minTime) {
+	std::cout << "Finding children" << std::endl;
+	std::vector<KGEdge*> childEdges =  FindAllChildren(currNode, minTime); // returns all children of currNode
+
+	if (depth == 0 || childEdges.size() == 0) {
+		std::cout << "Returning from dfs" << std::endl;
+		return;
+	}
+	std::cout << "\tInserting child entities" << std::endl;
+	for (auto edge: childEdges) {
+		std::cout << "Inserting child" << std::endl;
+		InsertObjectInteractions(startNode, edge->n2_hash);
+		std::cout << "Inserted child" << std::endl;
+	}
+	int count = 0;
+	for (auto edge : childEdges) {
+		std::cout << "Checking child " << count << std::endl;
+		//Optimize here replace set with hashtable or bloomfilter for more optimized datastructure
+		if (visited.count(edge->n2_hash) == 0) {
+			visited.insert(edge->n2_hash);
+			FindInteractiveEntities(startNode, edge->n2_hash, depth - 1, visited, std::stoll(edge->timestamp));
+			//append one hop incoming parents
+			FindOneHopParents(currNode);
+		} else {
+			std::cout << "Node already visited" << std::endl;
+		}
+	}
+}
+
+void KG::FindAllObjectInteractions() {
+	for (auto &it: KGNodeTable){
+		if(SearchNodeType(it.first) == NodeType_t::File) { //check File
+			std::cout << "Checking node: " << it.first << std::endl;
+			if (SkipObjectInteractionTable.count(it.first) > 0) {
+				std::cout << "\tSkipping node:  " << it.first << std::endl;
+				continue;
+			}
+			std::set<hash_t> visited;
+			std::cout << "\tFinding Interactive Entities: " << it.first << std::endl;
+			uint64_t minTime = UINT64_MAX;
+			FindInteractiveEntities(it.first, it.first, 5, visited, minTime);
+			std::cout << "\tInteractive Entities" << std::endl;
+			std::cout << "\t\t[" << std::endl;
+
+			// std::vector <hash_t> interactions = (*ObjectInteractionTable[it.first]);
+
+			if (ObjectInteractionTable[it.first]) {
+				std::cout << "\tInteractive Entities2" << std::endl;
+    		std::vector <hash_t> interactions = (*ObjectInteractionTable[it.first]);
+    		// Use interactions here
+			
+
+			if (interactions.empty()) {
+				std::cout << "interactions is empty" << std::endl;
+			} else {
+			for (auto child : interactions) {
+        		std::cout << child << ", ";
+    		}
+}
+			std::cout << "]" << std::endl;
+			}
+			else{
+				std::cout << "ObjectInteractionTable is null" << std::endl;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+

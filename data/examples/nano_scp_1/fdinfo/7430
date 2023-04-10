@@ -1,0 +1,22 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 16:48 .
+dr-xr-xr-x 9 root root  0 Oct 31 16:48 ..
+lr-x------ 1 root root 64 Oct 31 16:48 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 16:48 1 -> socket:[4258392339]
+lrwx------ 1 root root 64 Oct 31 16:48 10 -> socket:[4254399648]
+lrwx------ 1 root root 64 Oct 31 16:48 11 -> socket:[4254399649]
+lr-x------ 1 root root 64 Oct 31 16:48 12 -> pipe:[4254399650]
+l-wx------ 1 root root 64 Oct 31 16:48 13 -> pipe:[4254399650]
+lr-x------ 1 root root 64 Oct 31 16:48 14 -> pipe:[4254399651]
+l-wx------ 1 root root 64 Oct 31 16:48 15 -> pipe:[4254399651]
+lrwx------ 1 root root 64 Oct 31 16:48 16 -> socket:[1316186438]
+l-wx------ 1 root root 64 Oct 31 16:48 17 -> pipe:[4254399652]
+lrwx------ 1 root root 64 Oct 31 16:48 2 -> socket:[4258392339]
+l-wx------ 1 root root 64 Oct 31 16:48 20 -> pipe:[4201854706]
+lrwx------ 1 root root 64 Oct 31 16:48 3 -> socket:[25575]
+lr-x------ 1 root root 64 Oct 31 16:48 4 -> /dev/urandom
+lrwx------ 1 root root 64 Oct 31 16:48 5 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Oct 31 16:48 6 -> /var/log/cups/access_log
+lrwx------ 1 root root 64 Oct 31 16:48 7 -> /var/log/cups/error_log
+lrwx------ 1 root root 64 Oct 31 16:48 8 -> /var/log/cups/page_log
+lrwx------ 1 root root 64 Oct 31 16:48 9 -> socket:[4254399647]

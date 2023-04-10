@@ -302,6 +302,10 @@ void MultithreadConstruction(std::string darpa_file, KG *infotbl, Config &cfg) {
 
     // count original edges in a graph
 	infotbl->edge_num += infotbl->KGEdgeTable.size();
+    
+    std::cout << "Finding Interactions" << std::endl;
+    infotbl->FindAllObjectInteractions();
 
     OverheadEnd(start, "KG construction");
 }
+

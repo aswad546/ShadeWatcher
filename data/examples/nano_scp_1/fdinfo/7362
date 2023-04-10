@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 uuidd uuidd  0 Oct 31 16:47 .
+dr-xr-xr-x 9 uuidd uuidd  0 Oct 31 16:47 ..
+lr-x------ 1 uuidd uuidd 64 Oct 31 16:47 0 -> /dev/null
+lrwx------ 1 uuidd uuidd 64 Oct 31 16:47 1 -> socket:[4254399607]
+lrwx------ 1 uuidd uuidd 64 Oct 31 16:47 2 -> socket:[4254399607]
+lrwx------ 1 uuidd uuidd 64 Oct 31 16:47 3 -> socket:[25572]

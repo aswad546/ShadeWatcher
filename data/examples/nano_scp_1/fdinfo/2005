@@ -1,0 +1,13 @@
+total 0
+dr-x------ 2 postgres postgres  0 Oct 31 22:04 .
+dr-xr-xr-x 9 postgres postgres  0 Oct 30 17:57 ..
+lr-x------ 1 postgres postgres 64 Oct 31 22:04 0 -> /dev/null
+l-wx------ 1 postgres postgres 64 Oct 31 22:04 1 -> /var/log/postgresql/postgresql-13-main.log
+l-wx------ 1 postgres postgres 64 Oct 31 22:04 10 -> pipe:[28120]
+l-wx------ 1 postgres postgres 64 Oct 31 22:04 2 -> /var/log/postgresql/postgresql-13-main.log
+lr-x------ 1 postgres postgres 64 Oct 31 22:04 3 -> /dev/urandom
+lr-x------ 1 postgres postgres 64 Oct 31 22:04 4 -> pipe:[29857]
+lrwx------ 1 postgres postgres 64 Oct 31 22:04 5 -> /var/lib/postgresql/13/main/pg_wal/000000010000000000000001
+lrwx------ 1 postgres postgres 64 Oct 31 22:04 6 -> anon_inode:[eventpoll]
+lrwx------ 1 postgres postgres 64 Oct 31 22:04 8 -> socket:[28015]
+lr-x------ 1 postgres postgres 64 Oct 31 22:04 9 -> pipe:[28120]

@@ -1,0 +1,9 @@
+total 0
+dr-x------ 2 root  root   0 Oct 31 22:04 .
+dr-xr-xr-x 9 avahi avahi  0 Oct 30 17:57 ..
+lr-x------ 1 root  root  64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root  root  64 Oct 31 22:04 1 -> socket:[20135]
+lrwx------ 1 root  root  64 Oct 31 22:04 2 -> socket:[20135]
+lrwx------ 1 root  root  64 Oct 31 22:04 3 -> socket:[25573]
+lrwx------ 1 root  root  64 Oct 31 22:04 4 -> socket:[27758]
+lrwx------ 1 root  root  64 Oct 31 22:04 6 -> socket:[27760]

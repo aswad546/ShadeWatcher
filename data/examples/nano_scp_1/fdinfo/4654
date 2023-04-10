@@ -1,0 +1,48 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 29 18:10 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/pts/22
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/pts/22
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 103 -> /usr/share/code/snapshot_blob.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 105 -> /dev/shm/.org.chromium.Chromium.7bLAc7 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 107 -> /dev/shm/.org.chromium.Chromium.LcKrJO (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 110 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /usr/share/code/icudtl.dat
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /usr/share/code/v8_context_snapshot.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> /usr/share/code/chrome_100_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> /usr/share/code/chrome_200_percent.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> /usr/share/code/locales/en-US.pak
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> /usr/share/code/resources.pak
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/pts/22
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 255 -> /dev/pts/22
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[1160890]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 30 -> socket:[1163891]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 31 -> /proc/4554/statm
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 32 -> /proc/4554/status
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 33 -> /usr/share/code/resources/app/node_modules.asar
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 34 -> /dev/shm/.org.chromium.Chromium.HsULcY (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 35 -> socket:[1168636]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 36 -> /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 37 -> /dev/shm/.org.chromium.Chromium.R7e3bG (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 38 -> /dev/shm/.org.chromium.Chromium.MqIy4C (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 39 -> /dev/shm/.org.chromium.Chromium.sJLpyf (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1162881]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 41 -> /dev/shm/.org.chromium.Chromium.B4QMUO (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 45 -> /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 46 -> /dev/shm/.org.chromium.Chromium.N2IoW8 (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 49 -> /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[1162931]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 52 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 53 -> /dev/shm/.org.chromium.Chromium.umVaWs (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 54 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 55 -> /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 57 -> /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 58 -> /dev/shm/.org.chromium.Chromium.cmjaMo (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 61 -> socket:[1169809]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 64 -> /dev/shm/.org.chromium.Chromium.BZ9oxf (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 66 -> /dev/shm/.org.chromium.Chromium.qO1h5f (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 79 -> /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 80 -> /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 81 -> /usr/share/fonts/truetype/freefont/FreeSerif.ttf
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 82 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf

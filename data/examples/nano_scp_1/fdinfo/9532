@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> /dev/pts/3
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> socket:[804119]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> anon_inode:inotify
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> /proc/9532/mountinfo
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> /home/anonymized/.local/share/gvfs-metadata/root (deleted)
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> /home/anonymized/.local/share/gvfs-metadata/root-b8cc85bc.log (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> /dev/pts/3
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> socket:[802253]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[804118]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> socket:[799038]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> anon_inode:[eventfd]

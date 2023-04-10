@@ -1,0 +1,16 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 27 20:25 ..
+lrwx------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 1 -> /dev/null
+lr-x------ 1 root root 64 Oct 31 22:04 10 -> anon_inode:inotify
+lrwx------ 1 root root 64 Oct 31 22:04 11 -> socket:[33617]
+lrwx------ 1 root root 64 Oct 31 22:04 12 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 31 22:04 2 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> socket:[33613]
+lrwx------ 1 root root 64 Oct 31 22:04 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 31 22:04 5 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 31 22:04 6 -> socket:[33990]
+lrwx------ 1 root root 64 Oct 31 22:04 7 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Oct 31 22:04 8 -> /proc/3326/mountinfo
+lr-x------ 1 root root 64 Oct 31 22:04 9 -> /proc/swaps

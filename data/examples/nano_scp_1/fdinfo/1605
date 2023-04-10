@@ -1,0 +1,13 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 30 17:57 ..
+lr-x------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 1 -> socket:[22444]
+lrwx------ 1 root root 64 Oct 31 22:04 2 -> socket:[22444]
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> /var/lib/containerd/io.containerd.metadata.v1.bolt/meta.db
+lrwx------ 1 root root 64 Oct 31 22:04 4 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Oct 31 22:04 5 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Oct 31 22:04 6 -> socket:[27992]
+lrwx------ 1 root root 64 Oct 31 22:04 7 -> socket:[27993]
+lrwx------ 1 root root 64 Oct 31 22:04 8 -> socket:[29315]
+lrwx------ 1 root root 64 Oct 31 22:04 9 -> socket:[31050]

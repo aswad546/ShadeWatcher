@@ -1,0 +1,29 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 02:40 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 11:40 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> socket:[2936769]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> socket:[2993674]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> /tmp/#102761152 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> /tmp/#102760534 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> /tmp/#102761177 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> socket:[2936770]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> /tmp/#102761179 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 22 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> /tmp/#102761186 (deleted)
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 25 -> /dev/ptmx
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 28 -> /dev/ptmx
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> socket:[2930050]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> socket:[2930052]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> socket:[2977337]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> anon_inode:[eventfd]

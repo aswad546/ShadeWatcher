@@ -1,0 +1,30 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> socket:[796309]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> socket:[799046]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> socket:[1166972]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> socket:[793398]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> socket:[792365]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> socket:[798320]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> socket:[801702]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> socket:[793565]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 18 -> socket:[799981]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> socket:[799986]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> socket:[796310]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 20 -> socket:[799987]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 21 -> socket:[799988]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 22 -> socket:[795100]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 23 -> socket:[794182]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 24 -> socket:[794189]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 25 -> socket:[817404]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 26 -> socket:[794193]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 27 -> socket:[2932877]
+lr-x------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> socket:[798277]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[798281]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> socket:[798282]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> socket:[798283]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> socket:[798289]

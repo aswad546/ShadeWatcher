@@ -46,7 +46,6 @@ void KGDarpaParse(std::string darpa_file, KG *infotbl, int dataset_type) {
 		
 		// read event in json format from audit logs
 		logload->GetEvent(id, event);
-
 		// translate events into triplets
 		if (event["datum"].isMember("com.bbn.tc.schema.avro.cdm18.Event")){
 			t.Event2triplet();
@@ -68,6 +67,8 @@ void KGDarpaParse(std::string darpa_file, KG *infotbl, int dataset_type) {
 	// comment the following two lines to do the stat without noise reduction 
 	ReduceNoise noise_reduction(infotbl);
 	noise_reduction.DeleteNoise();
+	std::cout << "Finding Interactions" << std::endl;
+	infotbl->FindAllObjectInteractions();
 
 	// count original edges in a graph
 	infotbl->edge_num += infotbl->KGEdgeTable.size();
@@ -84,3 +85,4 @@ void KGConstruction(std::string darpa_file, KG *infotbl, Config &cfg) {
 		KGDarpaParse(darpa_file, infotbl, cfg.dataset_type);
 	}
 }
+

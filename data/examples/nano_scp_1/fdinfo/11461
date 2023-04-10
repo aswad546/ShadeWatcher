@@ -1,0 +1,39 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 11:40 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> socket:[33437]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> socket:[33438]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> socket:[819565]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> socket:[819358]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> pipe:[33443]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> pipe:[33443]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> pipe:[33444]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> pipe:[33444]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_py.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_hz.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /dev/null
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_core.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_adjcache.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 22 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_annex.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 23 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_phrases.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 24 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_quick.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 25 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_eng.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 26 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_eng_pre.bin
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 27 -> /usr/share/fcitx-sogoupinyin/SogouInput/sgim_url.bin
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 28 -> socket:[819359]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 29 -> socket:[2920278]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> anon_inode:[eventpoll]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 30 -> socket:[813443]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 31 -> socket:[1169803]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 32 -> socket:[1164018]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 33 -> socket:[3012617]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 34 -> socket:[2893651]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 35 -> socket:[512924404]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> socket:[816801]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> socket:[818672]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> /tmp/sogou-qimpanel-watchdog:0.pid
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> socket:[818673]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> socket:[821708]

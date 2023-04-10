@@ -1,0 +1,22 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 22:04 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 17:57 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 1 -> socket:[1387912]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 10 -> socket:[1283786]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 11 -> socket:[1391700]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 12 -> socket:[1282996]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 13 -> socket:[1387920]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 14 -> socket:[1378200]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 15 -> socket:[1282997]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 16 -> socket:[4258392561]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 17 -> socket:[1283791]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 19 -> socket:[4258396857]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 2 -> socket:[1387913]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 3 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 4 -> socket:[1282994]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 5 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 6 -> socket:[1282991]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 7 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 8 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 22:04 9 -> socket:[1282995]

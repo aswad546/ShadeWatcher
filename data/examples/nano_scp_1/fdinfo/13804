@@ -1,0 +1,44 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 29 17:07 ..
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> /dev/pts/6
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> /usr/lib/libreoffice/program/types/offapi.rdb
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> socket:[3009851]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> socket:[3011617]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> /usr/lib/libreoffice/program/resource/dkten-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> /usr/lib/libreoffice/program/resource/fween-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> /usr/lib/libreoffice/program/resource/sben-US.res
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /dev/pts/6
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> /usr/lib/libreoffice/program/resource/ofaen-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> /usr/lib/libreoffice/program/resource/svten-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 22 -> /usr/lib/libreoffice/program/resource/sfxen-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 23 -> /usr/lib/libreoffice/program/resource/vclen-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 24 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 25 -> socket:[3010688]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 26 -> socket:[3009853]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 27 -> pipe:[3006105]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 28 -> pipe:[3006105]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 29 -> /home/anonymized/Downloads/smackslidecom-marple-mitigati-5f99247de3d36.pptx
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> /dev/urandom
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 30 -> socket:[3009855]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 31 -> pipe:[3009856]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 32 -> pipe:[3009856]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 33 -> /usr/lib/libreoffice/program/resource/sden-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 34 -> /usr/lib/libreoffice/program/resource/svxen-US.res
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 35 -> /usr/lib/libreoffice/program/resource/editengen-US.res
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 36 -> /tmp/lu13804t3wo40.tmp/lu13804t3wo8z.tmp
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 37 -> /usr/share/libreoffice/share/config/images_breeze.zip
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 38 -> /usr/share/libreoffice/share/config/images_galaxy.zip
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 39 -> /tmp/lu13804t3wo40.tmp/lu13804t3wo90.tmp
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> pipe:[3001203]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 40 -> /home/anonymized/.config/libreoffice/4/user/uno_packages/cache/log.txt
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 42 -> /usr/lib/libreoffice/program/resource/deploymenten-US.res
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> pipe:[3001203]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> /usr/lib/libreoffice/program/types.rdb
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> socket:[3009850]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> /usr/lib/libreoffice/program/types/oovbaapi.rdb

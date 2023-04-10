@@ -1,0 +1,33 @@
+total 0
+dr-x------ 2 anonymized anonymized  0 Oct 31 19:37 .
+dr-xr-xr-x 9 anonymized anonymized  0 Oct 30 11:39 ..
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 0 -> /dev/null
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 1 -> /dev/pts/6
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 10 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 11 -> /dev/dri/card1
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 12 -> socket:[804240]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 13 -> socket:[794176]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 14 -> anon_inode:[eventpoll]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 15 -> pipe:[804275]
+l-wx------ 1 anonymized anonymized 64 Oct 31 19:37 16 -> pipe:[804275]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 17 -> socket:[804276]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 18 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 19 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 2 -> /dev/pts/6
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 20 -> socket:[804277]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 21 -> socket:[804289]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 22 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 23 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 24 -> socket:[793562]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 25 -> socket:[804417]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 26 -> socket:[1165131]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 27 -> /home/anonymized/.local/share/zeitgeist/activity.sqlite
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 28 -> /home/anonymized/.local/share/zeitgeist/activity.sqlite-wal
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 29 -> /home/anonymized/.local/share/zeitgeist/activity.sqlite-shm
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 3 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 4 -> anon_inode:[eventfd]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 5 -> socket:[803095]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 6 -> anon_inode:[eventfd]
+lr-x------ 1 anonymized anonymized 64 Oct 31 19:37 7 -> anon_inode:inotify
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 8 -> socket:[793405]
+lrwx------ 1 anonymized anonymized 64 Oct 31 19:37 9 -> socket:[803096]

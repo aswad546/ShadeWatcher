@@ -3,7 +3,8 @@
 
 #include "parser/kg.h"
 #include <set>
-
+#include <iostream>
+#include <string>
 class Triplet
 {
 public:

@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 root root  0 Oct 31 22:04 .
+dr-xr-xr-x 9 root root  0 Oct 30 17:57 ..
+lr-x------ 1 root root 64 Oct 31 22:04 0 -> /dev/null
+lrwx------ 1 root root 64 Oct 31 22:04 1 -> socket:[38975]
+l-wx------ 1 root root 64 Oct 31 22:04 10 -> pipe:[31544]
+lrwx------ 1 root root 64 Oct 31 22:04 11 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Oct 31 22:04 12 -> socket:[33632]
+lrwx------ 1 root root 64 Oct 31 22:04 13 -> socket:[33630]
+lrwx------ 1 root root 64 Oct 31 22:04 14 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 31 22:04 15 -> /var/lib/fwupd/pending.db
+lr-x------ 1 root root 64 Oct 31 22:04 16 -> /sys/firmware/efi/esrt/entries/entry0
+lrwx------ 1 root root 64 Oct 31 22:04 2 -> socket:[38975]
+lrwx------ 1 root root 64 Oct 31 22:04 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Oct 31 22:04 4 -> socket:[31542]
+lr-x------ 1 root root 64 Oct 31 22:04 5 -> anon_inode:inotify
+lrwx------ 1 root root 64 Oct 31 22:04 6 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Oct 31 22:04 7 -> pipe:[31543]
+l-wx------ 1 root root 64 Oct 31 22:04 8 -> pipe:[31543]
+lr-x------ 1 root root 64 Oct 31 22:04 9 -> pipe:[31544]

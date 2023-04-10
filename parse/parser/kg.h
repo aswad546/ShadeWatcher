@@ -1,3 +1,4 @@
+
 #ifndef SHADEWATCHER_PARSER_KG_H_
 #define SHADEWATCHER_PARSER_KG_H_
 
@@ -34,6 +35,10 @@ typedef std::unordered_map<hash_t, std::vector<hash_t> *, HashFunction> internal
 typedef std::unordered_map<hash_t, KGEdge *, HashFunction> edge_map;
 typedef std::vector <KGEdge *> inter_map;
 typedef std::unordered_map <hash_t,  inter_map *, HashFunction> interaction_map;
+typedef std::unordered_map <hash_t, std::vector <hash_t> *, HashFunction> obj_interaction_map;
+typedef std::set <hash_t> skip_obj_interaction;
+typedef std::unordered_map <hash_t, int64_t, HashFunction> one_hop_obj_interaction;
+
 
 class KG {
 public:
@@ -53,7 +58,7 @@ public:
 	// this table stores nodes in a graph
 	node_map KGNodeTable;
 
-	// this talbe stores edges in a graph
+	// this table stores edges in a graph
 	edge_map KGEdgeTable;
 
 	// this table stores noisy nodes (e.g., firefox process) in darpa datasets
@@ -76,6 +81,11 @@ public:
 	// we dont use unordered_map to store edges in the first place 
 	// because we dont want to update edge key constantly 
 	internal_edge_map KGEdgeList;
+
+	//Map to list object interactions
+	obj_interaction_map ObjectInteractionTable;
+	one_hop_obj_interaction OneHopChildCount;
+	skip_obj_interaction SkipObjectInteractionTable;
 
 	// List files and procs that may trigger dependency explosino problem
 	std::vector <std::string> NoiseFile;
@@ -112,6 +122,13 @@ public:
 	void InsertProcInteraction(hash_t, KGEdge *);
 	void InsertFileInteraction(hash_t, inter_map *);
 	void InsertProcInteraction(hash_t, inter_map *);
+
+	//Object Interactions
+	// void InsertObjectInteractions(hash_t, hash_t);
+	// std::vector<KGEdge*> FindAllChildren(hash_t, int64_t);
+	// void FindInteractiveEntities(hash_t);
+	// void FindAllObjectInteractions();
+
 
 	// search
 	bool SearchNoisyNode(hash_t);
@@ -151,6 +168,14 @@ public:
 	// desconstruct objects in a KG to free memory
 	void FreeInteraction();
 	void FreeNode();
+
+	// for dfs
+	void InsertObjectInteractions(hash_t , hash_t );
+	std::vector<KGEdge*> FindAllChildren(hash_t , uint64_t);
+	void FindOneHopParents(hash_t );
+	void FindInteractiveEntities(hash_t , hash_t , int8_t , std::set<hash_t>, uint64_t );
+	void FindAllObjectInteractions();
 };
 
 #endif
+
