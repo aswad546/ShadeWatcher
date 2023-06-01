@@ -9,6 +9,7 @@ LocalStore::LocalStore(std::string _kg_path, KG *_infotbl) {
     socket_num = 0;
     file_num = 0;
     edge_num = 0;
+
 }
 
 // Encode nodes in ProcNodeTable by one-hot-encoding and write the results into procfact_tmp.txt
@@ -57,7 +58,7 @@ void LocalStore::StoreFile() {
 	if (!nodefact_file.is_open()) {
 		std::cerr << "Fail to open file:" << nodefact_path << std::endl;
         return;
-	}	
+	}
 
 	// auto node_num = infotbl->FileNodeTable.size();
 	// filefact_file << node_num << std::endl;
@@ -88,7 +89,7 @@ void LocalStore::StoreSocket() {
 	if (!nodefact_file.is_open()) {
 		std::cerr << "Fail to open file:" << nodefact_path << std::endl;
         return;
-	}	
+	}
 
 	// auto node_num = infotbl->SocketNodeTable.size();
 	// socketfact_file << node_num << std::endl;
@@ -134,6 +135,7 @@ void LocalStore::StoreEdge(int _file_id) {
 	}
 	edgefact_file.close();
 }
+
 
 void LocalStore::KGStoreToFile(int file_id) {
     auto start = OverheadStart();
@@ -203,7 +205,7 @@ void KGLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad process entity" << std::endl;
 	for (nodenum_t it = 0; it < proc_num; it++) {
 		std::getline(proc_file, line);
-		std::istringstream proc(line); 
+		std::istringstream proc(line);
 		std::string p_hash_str;
 		proc >> p_hash_str;
 		hash_t p_hash = std::stol(p_hash_str);
@@ -227,7 +229,7 @@ void KGLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad file entity" << std::endl;
 	for (nodenum_t it = 0; it < file_num; it++) {
 		std::getline(file_file, line);
-		std::istringstream file(line); 
+		std::istringstream file(line);
 		std::string f_hash_str;
 		file >> f_hash_str;
 		hash_t f_hash = std::stol(f_hash_str);
@@ -245,14 +247,14 @@ void KGLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad socket entity" << std::endl;
 	for (nodenum_t it = 0; it < socket_num; it++) {
 		std::getline(socket_file, line);
-		std::istringstream socket(line); 
+		std::istringstream socket(line);
 		std::string s_hash_str;
 		socket >> s_hash_str;
 		hash_t s_hash = std::stol(s_hash_str);
 
 		std::string s_name;
 		socket >> s_name;
-		
+
 		NodeSocket *s_temp = new NodeSocket (s_name, s_hash);
 		infotbl->InsertSocket(s_temp);
 	}
@@ -278,7 +280,7 @@ void KGLoadFromFile(std::string kg_path, KG *infotbl) {
 		std::cout << "\tLoad edges" << std::endl;
 		for (nodenum_t it = 0; it < edge_num; it++) {
 			std::getline(edge_file, line);
-			std::istringstream edge(line); 
+			std::istringstream edge(line);
 			std::string e_hash_str;
 			edge >> e_hash_str;
 			hash_t e_hash = std::stol(e_hash_str);
@@ -317,7 +319,7 @@ void KGLoadFromFile(std::string kg_path, KG *infotbl) {
 	proc_file.close();
 	file_file.close();
 	socket_file.close();
-	
+
 	OverheadEnd(start, "Load KG from files");
 }
 
@@ -357,7 +359,7 @@ void EntityLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad process entity" << std::endl;
 	for (nodenum_t it = 0; it < proc_num; it++) {
 		std::getline(proc_file, line);
-		std::istringstream proc(line); 
+		std::istringstream proc(line);
 		std::string p_hash_str;
 		proc >> p_hash_str;
 		hash_t p_hash = std::stol(p_hash_str);
@@ -381,7 +383,7 @@ void EntityLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad file entity" << std::endl;
 	for (nodenum_t it = 0; it < file_num; it++) {
 		std::getline(file_file, line);
-		std::istringstream file(line); 
+		std::istringstream file(line);
 		std::string f_hash_str;
 		file >> f_hash_str;
 		hash_t f_hash = std::stol(f_hash_str);
@@ -399,19 +401,186 @@ void EntityLoadFromFile(std::string kg_path, KG *infotbl) {
 	std::cout << "\tLoad socket entity" << std::endl;
 	for (nodenum_t it = 0; it < socket_num; it++) {
 		std::getline(socket_file, line);
-		std::istringstream socket(line); 
+		std::istringstream socket(line);
 		std::string s_hash_str;
 		socket >> s_hash_str;
 		hash_t s_hash = std::stol(s_hash_str);
 
 		std::string s_name;
 		socket >> s_name;
-		
+
 		NodeSocket *s_temp = new NodeSocket (s_name, s_hash);
 		infotbl->InsertSocket(s_temp);
 	}
 
 	OverheadEnd(start, "Load system entities from files");
+}
+
+void LocalStore::SetNodeMap() {
+	int64_t node_id = infotbl->KGNodeTable.size() - 1;
+	node_map.clear();
+	for (auto node : infotbl->KGNodeTable) {
+		hash_t id = node.first;
+		auto it = node_map.find(id);
+		if (it == node_map.end()){
+			node_map[id] = node_id;
+			node_id--;
+		}
+	}
+}
+
+void LocalStore::StoreEntityFile() {
+	SetNodeMap();
+
+	//Writing entity2id.txt file
+	int64_t totalNodes = infotbl->KGNodeTable.size();
+	std::string entity_file_path = kg_path + "/entity2id.txt";
+	std::ofstream entity_file(entity_file_path, std::ios::app);
+	if (!entity_file.is_open()) {
+		std::cerr << "Fail to open file:" << entity_file_path << std::endl;
+        return;
+	}
+	entity_file << totalNodes << std::endl;
+	for (auto node: node_map) {
+		entity_file << node.first << " " << node.second << std::endl;
+	}
+
+	entity_file.close();
+}
+void LocalStore::StoreInteractionFile() {
+
+	std::string inter_file_path = kg_path + "/inter2id.txt";
+	std::ofstream inter_file(inter_file_path, std::ios::app);
+	if (!inter_file.is_open()) {
+		std::cerr << "Fail to open file:" << inter_file_path << std::endl;
+        return;
+	}
+	//Writing inter2id.txt file
+	for (auto it: infotbl->ObjectInteractionTable) {
+		try{
+			inter_file << node_map[it.first] << " ";
+			std::vector <hash_t> * interactions = it.second;
+			if (interactions == NULL) {
+				continue;
+			}
+			for (auto entity: (*interactions)) {
+				inter_file << node_map[entity] << " ";
+			}
+			inter_file << std::endl;
+		} catch(...) {
+			std::cout << "One hot encoding for interaction failed" << std::endl;
+
+		}
+	}
+	inter_file.close();
+
+	//Adding interactions to train2id.txt file
+	std::string train_file_path = kg_path + "/train2id.txt";
+	std::ofstream train_file(train_file_path, std::ios::app);
+	if (!train_file.is_open()) {
+		std::cerr << "Fail to open file:" << train_file_path << std::endl;
+        return;
+	}
+
+	for (auto it: infotbl->ObjectInteractionTable) {
+		try{
+			// train_file << node_map[it.first] << " ";
+			if (it.second == NULL) continue;
+			for (auto entity: (*it.second)) {
+				train_file << node_map[it.first] << " " << node_map[entity] << " " << 27 << std::endl;
+			}
+		} catch(...) {
+			std::cout << "One hot encoding for interaction failed at end" << std::endl;
+
+		}
+	}
+	train_file.close();
+}
+void LocalStore::StoreRelationFile() {
+	std::string relation_file_path = kg_path + "/relation2id.txt";
+	std::ofstream relation_file(relation_file_path, std::ios::app);
+	if (!relation_file.is_open()) {
+		std::cerr << "Fail to open file:" << relation_file_path << std::endl;
+        return;
+	}
+
+	//Writing relation2id.txt file
+	relation_file << 28 << std::endl;
+	relation_file << "vfork" << " " << 0 << std::endl;
+	relation_file << "clone" << " " << 1 << std::endl;
+	relation_file << "execve" << " " << 2 << std::endl;
+	relation_file << "kill" << " " << 3 << std::endl;
+	relation_file << "create" << " " << 4 << std::endl;
+	relation_file << "pipe" << " " << 5 << std::endl;
+	relation_file << "delete" << " " << 6 << std::endl;
+	relation_file << "recv" << " " << 7 << std::endl;
+	relation_file << "send" << " " << 8 << std::endl;
+	relation_file << "mkdir" << " " << 9 << std::endl;
+	relation_file << "rmdir" << " " << 10 << std::endl;
+	relation_file << "open" << " " << 11 << std::endl;
+	relation_file << "load" << " " << 12 << std::endl;
+	relation_file << "read" << " " << 13 << std::endl;
+	relation_file << "write" << " " << 14 << std::endl;
+	relation_file << "connect" << " " << 15 << std::endl;
+	relation_file << "getpeername" << " " << 16 << std::endl;
+	relation_file << "filepath" << " " << 17 << std::endl;
+	relation_file << "mode" << " " << 18 << std::endl;
+	relation_file << "mtime" << " " << 19 << std::endl;
+	relation_file << "linknum" << " " << 20 << std::endl;
+	relation_file << "uid" << " " << 21 << std::endl;
+	relation_file << "count" << " " << 22 << std::endl;
+	relation_file << "nametype" << " " << 23 << std::endl;
+	relation_file << "version" << " " << 24 << std::endl;
+	relation_file << "dev" << " " << 25 << std::endl;
+	relation_file << "sizebyte" << " " << 26 << std::endl;
+	relation_file << "interaction" << " " << 27 << std::endl;
+
+	relation_file.close();
+}
+
+void LocalStore::StoreTrainFile() {
+	SetNodeMap();
+	//Writing train2id.txt file
+	std::string train_file_path = kg_path + "/train2id.txt";
+	std::ofstream train_file(train_file_path, std::ios::app);
+	if (!train_file.is_open()) {
+		std::cerr << "Fail to open file:" << train_file_path << std::endl;
+        return;
+	}
+	for (const auto it: infotbl->KGEdgeTable) {
+		KGEdge* edge = it.second;
+		hash_t _n1_hash = edge->n1_hash;
+		hash_t _n2_hash = edge->n2_hash;
+
+		std::string parent = std::to_string(node_map[_n1_hash]);
+		std::string child = std::to_string(node_map[_n2_hash]);
+		std::string relation = std::to_string(EdgeEnum2Int(edge->relation) - 1);
+		train_file << parent << " " << child << " " << relation << std::endl;
+	}
+
+	train_file.close();
+}
+
+void LocalStore::StoreRecommendationModelFiles() {
+	auto start = OverheadStart();
+	std::cout << "Storing entity2id.txt file\n";
+	StoreEntityFile();
+	std::cout << "Storing relation2id.txt file\n";
+	StoreRelationFile();
+	std::cout << "Storing inter2id.txt file\n";
+	StoreInteractionFile();
+	OverheadEnd(start, "Store Recommendation Model Files");
+	std::cout << "Storing train2id.txt file\n";
+	std::string bashScript = R"(
+        #!/bin/bash
+	lines=`less /home/vagrant/ShadeWatcher/data/encoding/e3_trace/train2id.txt | wc -l`
+	sed -i "1s/^/$lines\n/" /home/vagrant/ShadeWatcher/data/encoding/e3_trace/train2id.txt
+    )";
+
+    // Execute the Bash script using system()
+    int result = system(bashScript.c_str());
+
+
 }
 
 // add the number of processes, files, and sockets in procfact_tmp.txt,
@@ -421,7 +590,7 @@ void LocalStore::DumpProcFileSocketEdge2FactSize(int _file_id) {
 	// record the number of processes
 	std::string procfact_path = kg_path + "/procfact.txt";
 	std::string procfact_tmp_path = kg_path + "/procfact_tmp.txt";
-	
+
 	std::ofstream procfact_file(procfact_path, std::ios::app);
 	if (!procfact_file.is_open()){
 		std::cerr << "Fail to open file:" << procfact_path << std::endl;
@@ -520,3 +689,4 @@ void LocalStore::DumpProcFileSocketEdge2FactSize(int _file_id) {
     edgefact_tmp_file.close();
     std::remove(edgefact_tmp_path.c_str());
 }
+

@@ -16,11 +16,9 @@ void KGDarpaParse(std::string darpa_file, KG *infotbl, int dataset_type) {
 	auto start = OverheadStart();
 	
 	// Read Log: compute offsets
-	std::cout << "darpa file: " << darpa_file << std::endl;
 	LogLoader *logload = new LogLoader(darpa_file);
 	logload->LoadDARPALog();
 	event_t event_num = logload->event_num;
-
 	Json::Value event;
 	Triplet t(event, infotbl, dataset_type);
 

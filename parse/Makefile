@@ -39,7 +39,7 @@ DRIVERDAR_OBJ = $(patsubst %.cpp, %.o, $(DRIVERDAR_SRC))
 DRIVERKAFKA_OBJ = $(patsubst %.cpp, %.o, $(DRIVERKAFKA_SRC))
 
 # Option (debug/progress)
-export OPT = -std=c++17
+export OPT = -std=c++14
 VER = normal
 ifeq ($(VER), debug)
 	OPT += -O0 -g -DDEBUG

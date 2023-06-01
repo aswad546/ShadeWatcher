@@ -1,4 +1,3 @@
-
 #ifndef SHADEWATCHER_PARSER_KG_H_
 #define SHADEWATCHER_PARSER_KG_H_
 
@@ -172,8 +171,8 @@ public:
 	// for dfs
 	void InsertObjectInteractions(hash_t , hash_t );
 	std::vector<KGEdge*> FindAllChildren(hash_t , uint64_t);
-	void FindOneHopParents(hash_t );
-	void FindInteractiveEntities(hash_t , hash_t , int8_t , std::set<hash_t>, uint64_t );
+	void FindOneHopParents(hash_t, hash_t, hash_t );
+	void FindInteractiveEntities(hash_t , hash_t , hash_t, int8_t , std::set<hash_t>&, uint64_t );
 	void FindAllObjectInteractions();
 };
 

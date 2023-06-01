@@ -63,11 +63,14 @@ int main(int argc, char **argv) {
 			if (cfg.storetofile) {
 				ls.KGStoreToFile(file_id);
 				file_id += 1;
+				
 			}
 			
 			if (cfg.storeentity) {
 				ls.EntityStoreToFile();
 			}
+			//Appending train2id.txt file for each file to keep edges which are otherwise removed by free interaction
+			ls.StoreTrainFile();
 
 			// ************ visualize attacks in darpa dataset *******************
 			// ******************************************************************
@@ -75,14 +78,17 @@ int main(int argc, char **argv) {
 			// to save memory, we clean up KG after parsing a darpa file
 			infotbl->FreeInteraction();
 		}
+		ls.StoreRecommendationModelFiles();
 
 		if (cfg.storetofile || cfg.storeentity) {
 			ls.DumpProcFileSocketEdge2FactSize(file_id - 1);
 		}
 	}
+	
 
 	infotbl->FreeInteraction();
 	infotbl->FreeNode();
 	delete (infotbl);
 	return 0;
 }
+
